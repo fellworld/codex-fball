@@ -1,0 +1,73 @@
+source_order,group,date_china,time_china,team_a,team_b,team_a_canonical,team_b_canonical,team_a_attack_rating,team_a_defense_rating,team_b_attack_rating,team_b_defense_rating,team_a_power_rating,team_b_power_rating,team_a_expected_goals,team_b_expected_goals,total_expected_goals,input_notes
+1,A,2026-06-12,03:00,Mexico,South Africa,Mexico,South Africa,63.62,66.88,55.02,57.41,73.77,56.96,1.562,1.137,2.698,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+2,A,2026-06-12,10:00,South Korea,Czechia,Korea Republic,Czechia,64.04,59.95,68.46,58.41,68.96,69.36,1.451,1.503,2.955,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+3,B,2026-06-13,03:00,Canada,Bosnia and Herzegovina,Canada,Bosnia And Herzegovina,63.46,68.27,32.75,62.75,70.43,43.93,1.463,0.711,2.173,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+4,D,2026-06-13,09:00,United States,Paraguay,USA,Paraguay,63.19,48.98,58.62,60.48,66.86,69.25,1.499,1.524,3.022,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+5,B,2026-06-14,03:00,Qatar,Switzerland,Qatar,Switzerland,45.13,33.95,74.20,61.58,44.61,77.00,1.054,2.075,3.128,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+6,C,2026-06-14,06:00,Brazil,Morocco,Brazil,Morocco,74.57,68.10,74.18,78.19,82.17,79.06,1.285,1.459,2.744,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+7,C,2026-06-14,09:00,Haiti,Scotland,Haiti,Scotland,62.21,49.61,45.05,37.19,57.07,32.00,1.800,1.268,3.068,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+8,D,2026-06-14,12:00,Australia,Turkiye,Australia,Türkiye,60.70,61.38,74.46,64.24,67.83,78.72,1.286,1.585,2.872,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+9,E,2026-06-15,01:00,Germany,Curacao,Germany,Curaçao,88.56,74.98,55.24,46.91,88.29,50.24,2.100,0.995,3.094,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+10,F,2026-06-15,04:00,Netherlands,Japan,Netherlands,Japan,81.73,68.82,78.15,76.02,82.51,80.72,1.453,1.518,2.971,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+11,E,2026-06-15,07:00,Ivory Coast,Ecuador,Côte D'Ivoire,Ecuador,63.98,67.10,57.70,71.69,67.06,73.62,1.211,1.181,2.392,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+12,F,2026-06-15,10:00,Sweden,Tunisia,Sweden,Tunisia,68.42,51.70,58.54,53.76,66.71,60.42,1.614,1.473,3.087,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+13,H,2026-06-16,00:00,Spain,Cape Verde,Spain,Cabo Verde,93.90,81.17,48.91,48.90,97.79,52.32,2.160,0.769,2.929,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+14,G,2026-06-16,03:00,Belgium,Egypt,Belgium,Egypt,81.26,65.96,56.65,61.59,79.28,63.99,1.704,1.182,2.886,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+15,H,2026-06-16,06:00,Saudi Arabia,Uruguay,Saudi Arabia,Uruguay,51.41,48.79,54.34,61.12,56.02,68.02,1.175,1.450,2.625,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+16,G,2026-06-16,09:00,Iran,New Zealand,IR Iran,New Zealand,64.91,63.24,62.40,49.11,68.79,58.04,1.634,1.335,2.969,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+17,I,2026-06-17,03:00,France,Senegal,France,Senegal,83.17,71.60,78.92,72.16,89.07,80.48,1.548,1.482,3.030,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+18,I,2026-06-17,06:00,Iraq,Norway,Iraq,Norway,49.41,51.59,86.83,70.54,56.60,83.76,0.970,1.984,2.954,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+19,J,2026-06-17,09:00,Argentina,Algeria,Argentina,Algeria,83.95,83.86,70.76,69.12,91.61,73.13,1.617,1.114,2.731,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+20,J,2026-06-17,12:00,Austria,Jordan,Austria,Jordan,75.48,69.74,57.14,45.51,76.48,58.88,1.889,1.123,3.013,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+21,K,2026-06-18,01:00,Portugal,DR Congo,Portugal,Congo DR,79.95,70.28,58.94,65.27,83.09,64.84,1.614,1.146,2.760,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+22,L,2026-06-18,04:00,England,Croatia,England,Croatia,86.16,84.71,73.08,64.74,90.74,77.24,1.736,1.141,2.876,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+23,L,2026-06-18,07:00,Ghana,Panama,Ghana,Panama,53.12,49.67,60.02,51.49,53.50,62.72,1.379,1.536,2.916,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+24,K,2026-06-18,10:00,Uzbekistan,Colombia,Uzbekistan,Colombia,55.21,61.01,68.04,60.02,63.40,75.37,1.263,1.477,2.740,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+25,A,2026-06-19,00:00,Czechia,South Africa,Czechia,South Africa,68.46,58.41,55.02,57.41,69.36,56.96,1.549,1.289,2.838,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+26,B,2026-06-19,03:00,Switzerland,Bosnia and Herzegovina,Switzerland,Bosnia And Herzegovina,74.20,61.58,32.75,62.75,77.00,43.93,1.556,0.831,2.387,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+27,B,2026-06-19,06:00,Canada,Qatar,Canada,Qatar,63.46,68.27,45.13,33.95,70.43,44.61,1.981,0.933,2.915,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+28,A,2026-06-19,09:00,Mexico,South Korea,Mexico,Korea Republic,63.62,66.88,64.04,59.95,73.77,68.96,1.516,1.299,2.815,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+29,D,2026-06-20,03:00,United States,Australia,USA,Australia,63.19,48.98,60.70,61.38,66.86,67.83,1.483,1.561,3.044,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+30,C,2026-06-20,06:00,Scotland,Morocco,Scotland,Morocco,45.05,37.19,74.18,78.19,32.00,79.06,0.753,2.016,2.769,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+31,C,2026-06-20,08:30,Brazil,Haiti,Brazil,Haiti,74.57,68.10,62.21,49.61,82.17,57.07,1.799,1.244,3.043,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+32,D,2026-06-20,11:00,Turkiye,Paraguay,Türkiye,Paraguay,74.46,64.24,58.62,60.48,78.72,69.25,1.602,1.249,2.850,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+33,F,2026-06-21,01:00,Netherlands,Sweden,Netherlands,Sweden,81.73,68.82,68.42,51.70,82.51,66.71,1.891,1.343,3.233,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+34,E,2026-06-21,04:00,Germany,Ivory Coast,Germany,Côte D'Ivoire,88.56,74.98,63.98,67.10,88.29,67.06,1.736,1.152,2.888,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+35,E,2026-06-21,08:00,Ecuador,Curacao,Ecuador,Curaçao,57.70,71.69,55.24,46.91,73.62,50.24,1.544,1.054,2.598,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+36,F,2026-06-21,12:00,Tunisia,Japan,Tunisia,Japan,58.54,53.76,78.15,76.02,60.42,80.72,1.035,1.789,2.824,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+37,H,2026-06-22,00:00,Spain,Saudi Arabia,Spain,Saudi Arabia,93.90,81.17,51.41,48.79,97.79,56.02,2.162,0.814,2.976,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+38,G,2026-06-22,03:00,Belgium,Iran,Belgium,IR Iran,81.26,65.96,64.91,63.24,79.28,68.79,1.674,1.331,3.005,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+39,H,2026-06-22,06:00,Uruguay,Cape Verde,Uruguay,Cabo Verde,54.34,61.12,48.91,48.90,68.02,52.32,1.448,1.130,2.578,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+40,G,2026-06-22,09:00,New Zealand,Egypt,New Zealand,Egypt,62.40,49.11,56.65,61.59,58.04,63.99,1.365,1.486,2.850,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+41,J,2026-06-23,01:00,Argentina,Austria,Argentina,Austria,83.95,83.86,75.48,69.74,91.61,76.48,1.606,1.199,2.805,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+42,I,2026-06-23,05:00,France,Iraq,France,Iraq,83.17,71.60,49.41,51.59,89.07,56.60,1.918,0.951,2.869,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+43,I,2026-06-23,08:00,Norway,Senegal,Norway,Senegal,86.83,70.54,78.92,72.16,83.76,80.48,1.614,1.501,3.115,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+44,J,2026-06-23,11:00,Jordan,Algeria,Jordan,Algeria,57.14,45.51,70.76,69.12,58.88,73.13,1.134,1.805,2.939,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+45,K,2026-06-24,01:00,Portugal,Uzbekistan,Portugal,Uzbekistan,79.95,70.28,55.21,61.01,83.09,63.40,1.691,1.079,2.770,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+46,L,2026-06-24,04:00,England,Ghana,England,Ghana,86.16,84.71,53.12,49.67,90.74,53.50,2.007,0.781,2.788,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+47,L,2026-06-24,07:00,Panama,Croatia,Panama,Croatia,60.02,51.49,73.08,64.74,62.72,77.24,1.265,1.739,3.004,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+48,K,2026-06-24,10:00,Colombia,DR Congo,Colombia,Congo DR,68.04,60.02,58.94,65.27,75.37,64.84,1.400,1.331,2.730,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+49,B,2026-06-25,03:00,Switzerland,Canada,Switzerland,Canada,74.20,61.58,63.46,68.27,77.00,70.43,1.457,1.484,2.941,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+50,B,2026-06-25,03:00,Bosnia and Herzegovina,Qatar,Bosnia And Herzegovina,Qatar,32.75,62.75,45.13,33.95,43.93,44.61,1.328,1.033,2.361,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+51,C,2026-06-25,06:00,Morocco,Haiti,Morocco,Haiti,74.18,78.19,62.21,49.61,79.06,57.07,1.792,1.062,2.855,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+52,C,2026-06-25,06:00,Scotland,Brazil,Scotland,Brazil,45.05,37.19,74.57,68.10,32.00,82.17,0.935,2.023,2.958,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+53,A,2026-06-25,09:00,South Africa,South Korea,South Africa,Korea Republic,55.02,57.41,64.04,59.95,56.96,68.96,1.261,1.469,2.731,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+54,A,2026-06-25,09:00,Czechia,Mexico,Czechia,Mexico,68.46,58.41,63.62,66.88,69.36,73.77,1.378,1.544,2.922,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+55,E,2026-06-26,04:00,Curacao,Ivory Coast,Curaçao,Côte D'Ivoire,55.24,46.91,63.98,67.10,50.24,67.06,1.137,1.657,2.794,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+56,E,2026-06-26,04:00,Ecuador,Germany,Ecuador,Germany,57.70,71.69,88.56,74.98,73.62,88.29,1.039,1.654,2.693,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+57,F,2026-06-26,07:00,Japan,Sweden,Japan,Sweden,78.15,76.02,68.42,51.70,80.72,66.71,1.826,1.213,3.039,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+58,F,2026-06-26,07:00,Tunisia,Netherlands,Tunisia,Netherlands,58.54,53.76,81.73,68.82,60.42,82.51,1.165,1.853,3.018,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+59,D,2026-06-26,10:00,Paraguay,Australia,Paraguay,Australia,58.62,60.48,60.70,61.38,69.25,67.83,1.300,1.354,2.654,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+60,D,2026-06-26,10:00,Turkiye,United States,Türkiye,USA,74.46,64.24,63.19,48.98,78.72,66.86,1.809,1.431,3.240,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+61,I,2026-06-27,03:00,Norway,France,Norway,France,86.83,70.54,83.17,71.60,83.76,89.07,1.624,1.577,3.201,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+62,I,2026-06-27,03:00,Senegal,Iraq,Senegal,Iraq,78.92,72.16,49.41,51.59,80.48,56.60,1.842,0.941,2.782,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+63,H,2026-06-27,08:00,Cape Verde,Saudi Arabia,Cabo Verde,Saudi Arabia,48.91,48.90,51.41,48.79,52.32,56.02,1.352,1.395,2.747,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+64,H,2026-06-27,08:00,Uruguay,Spain,Uruguay,Spain,54.34,61.12,93.90,81.17,68.02,97.79,0.867,1.940,2.807,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+65,G,2026-06-27,11:00,Egypt,Iran,Egypt,IR Iran,56.65,61.59,64.91,63.24,63.99,68.79,1.231,1.410,2.641,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+66,G,2026-06-27,11:00,New Zealand,Belgium,New Zealand,Belgium,62.40,49.11,81.26,65.96,58.04,79.28,1.286,1.929,3.215,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+67,L,2026-06-28,05:00,Croatia,Ghana,Croatia,Ghana,73.08,64.74,53.12,49.67,77.24,53.50,1.771,1.141,2.912,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+68,L,2026-06-28,05:00,Panama,England,Panama,England,60.02,51.49,86.16,84.71,62.72,90.74,0.906,1.974,2.880,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+69,K,2026-06-28,07:30,Colombia,Portugal,Colombia,Portugal,68.04,60.02,79.95,70.28,75.37,83.09,1.310,1.709,3.018,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+70,K,2026-06-28,07:30,DR Congo,Uzbekistan,Congo DR,Uzbekistan,58.94,65.27,55.21,61.01,64.84,63.40,1.313,1.169,2.482,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+71,J,2026-06-28,10:00,Algeria,Austria,Algeria,Austria,70.76,69.12,75.48,69.74,73.13,76.48,1.368,1.464,2.833,xG from blended power/phase ratings; tactical/context data can further adjust totals.
+72,J,2026-06-28,10:00,Jordan,Argentina,Jordan,Argentina,57.14,45.51,83.95,83.86,58.88,91.61,0.869,2.042,2.911,xG from blended power/phase ratings; tactical/context data can further adjust totals.

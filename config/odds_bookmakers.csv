@@ -1,0 +1,11 @@
+priority,brand,provider_key,regions,markets,notes
+1,Pinnacle,pinnacle,eu;us;au,h2h;totals;spreads,Sharp bookmaker; useful as market reference when available.
+2,Bet365,bet365,uk;eu;au,h2h;totals;spreads,Large global bookmaker; availability depends on data provider and region.
+3,Betfair Exchange,betfair_ex_uk,uk,h2h,Exchange prices; Asian handicap/totals may require separate exchange markets.
+4,William Hill,williamhill,uk;eu,h2h;totals;spreads,Large UK/European bookmaker.
+5,Unibet,unibet,uk;eu;au,h2h;totals;spreads,Large European bookmaker.
+6,BetMGM,betmgm,us,h2h;totals;spreads,Large US bookmaker.
+7,DraftKings,draftkings,us,h2h;totals;spreads,Large US bookmaker.
+8,FanDuel,fanduel,us,h2h;totals;spreads,Large US bookmaker.
+9,Caesars,williamhill_us,us,h2h;totals;spreads,Caesars/William Hill US naming varies by provider.
+10,Ladbrokes,ladbrokes_uk,uk,h2h;totals;spreads,Large UK bookmaker; availability depends on provider.

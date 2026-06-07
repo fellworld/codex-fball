@@ -1,0 +1,60 @@
+{
+  "source": "https://inside.fifa.com/en/fifa-world-ranking/men?dateId=FRS_Male_Football_20260119",
+  "source_checked_at": "2026-06-07T11:54:42+00:00",
+  "last_update_date": "2026-04-01T11:55:29.435Z",
+  "next_update_date": "2026-06-11T00:00:00.000Z",
+  "available_dates": [
+    {
+      "id": "FRS_Male_Football_20260119",
+      "date": "2026-04-01",
+      "matchWindowEndDate": "2026-04-01"
+    },
+    {
+      "id": "FRS_Male_Football_20251219",
+      "date": "2026-01-19",
+      "matchWindowEndDate": "2026-01-19"
+    },
+    {
+      "id": "FRS_Male_Football_20251119",
+      "date": "2025-12-22",
+      "matchWindowEndDate": "2025-12-22"
+    },
+    {
+      "id": "FRS_Male_Football_20251015",
+      "date": "2025-11-19",
+      "matchWindowEndDate": "2025-11-19"
+    },
+    {
+      "id": "FRS_Male_Football_20250910",
+      "date": "2025-10-17",
+      "matchWindowEndDate": "2025-10-17"
+    },
+    {
+      "id": "id14870",
+      "date": "2025-09-18",
+      "matchWindowEndDate": "2025-09-18"
+    },
+    {
+      "id": "id14800",
+      "date": "2025-07-10",
+      "matchWindowEndDate": "2025-07-10"
+    },
+    {
+      "id": "id14702",
+      "date": "2025-04-03",
+      "matchWindowEndDate": "2025-04-03"
+    },
+    {
+      "id": "id14597",
+      "date": "2024-12-19",
+      "matchWindowEndDate": "2024-12-19"
+    },
+    {
+      "id": "id14576",
+      "date": "2024-11-28",
+      "matchWindowEndDate": "2024-11-28"
+    }
+  ],
+  "full_ranking_available": false,
+  "notes": "FIFA page metadata collected. Full ranking table was not exposed in static page JSON."
+}
