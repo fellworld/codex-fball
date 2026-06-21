@@ -1,9 +1,14 @@
 {
   "source": "https://inside.fifa.com/en/fifa-world-ranking/men?dateId=FRS_Male_Football_20260119",
-  "source_checked_at": "2026-06-07T11:54:42+00:00",
-  "last_update_date": "2026-04-01T11:55:29.435Z",
-  "next_update_date": "2026-06-11T00:00:00.000Z",
+  "source_checked_at": "2026-06-13T15:39:44+00:00",
+  "last_update_date": "2026-06-11T10:00:59.636Z",
+  "next_update_date": "2026-07-20T00:00:00.000Z",
   "available_dates": [
+    {
+      "id": "FRS_Male_Football_20260401",
+      "date": "2026-06-11",
+      "matchWindowEndDate": "2026-06-11"
+    },
     {
       "id": "FRS_Male_Football_20260119",
       "date": "2026-04-01",
@@ -48,11 +53,6 @@
       "id": "id14597",
       "date": "2024-12-19",
       "matchWindowEndDate": "2024-12-19"
-    },
-    {
-      "id": "id14576",
-      "date": "2024-11-28",
-      "matchWindowEndDate": "2024-11-28"
     }
   ],
   "full_ranking_available": false,

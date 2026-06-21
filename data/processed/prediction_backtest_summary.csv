@@ -1,0 +1,33 @@
+source_order,team_a,team_b,actual_score,most_likely_score,exact_score_hit,actual_score_rank,actual_score_probability,actual_score_log_loss,top5_scores,actual_result,predicted_result,result_hit,actual_total,predicted_total,total_hit,team_a_expected_goals,team_b_expected_goals,total_expected_goals
+1,Mexico,South Africa,2-0,1-1,false,4,0.086984,2.442032,1-1:0.119; 1-0:0.110; 2-1:0.094; 2-0:0.087; 0-1:0.075,team_a,team_a,true,under_2_5,under_2_5,true,1.581,1.084,2.664
+2,South Korea,Czechia,2-1,1-1,false,3,0.083419,2.483879,1-1:0.114; 1-2:0.085; 2-1:0.083; 0-1:0.077; 1-0:0.076,team_a,team_b,false,over_2_5,over_2_5,true,1.469,1.489,2.957
+3,Canada,Bosnia and Herzegovina,1-1,1-0,false,2,0.120440,2.116605,1-0:0.162; 1-1:0.120; 2-0:0.117; 0-0:0.112; 2-1:0.087,draw,team_a,false,under_2_5,under_2_5,true,1.445,0.744,2.189
+4,United States,Paraguay,4-1,1-1,false,16,0.019264,3.949513,1-1:0.108; 2-1:0.088; 1-2:0.080; 1-0:0.074; 0-1:0.067,team_a,team_a,true,over_2_5,over_2_5,true,1.622,1.468,3.090
+5,Qatar,Switzerland,1-1,1-2,false,2,0.095714,2.346396,1-2:0.099; 1-1:0.096; 0-2:0.094; 0-1:0.091; 1-3:0.069,draw,team_b,false,under_2_5,over_2_5,false,1.053,2.075,3.129
+6,Brazil,Morocco,1-1,1-1,true,1,0.120277,2.117955,1-1:0.120; 0-1:0.092; 1-2:0.087; 1-0:0.083; 2-1:0.079,draw,team_b,false,under_2_5,over_2_5,false,1.312,1.447,2.759
+7,Haiti,Scotland,0-1,1-1,false,7,0.058933,2.831348,1-1:0.106; 2-1:0.096; 1-0:0.084; 2-0:0.075; 1-2:0.067,team_b,team_a,false,under_2_5,over_2_5,false,1.801,1.267,3.068
+8,Australia,Turkiye,2-0,1-1,false,10,0.046791,3.062074,1-1:0.115; 1-2:0.092; 0-1:0.090; 2-1:0.074; 1-0:0.073,team_a,team_b,false,under_2_5,over_2_5,false,1.286,1.586,2.872
+9,Germany,Curacao,7-1,2-0,false,33,0.001614,6.429288,2-0:0.100; 2-1:0.099; 1-0:0.095; 1-1:0.095; 3-0:0.070,team_a,team_a,true,over_2_5,over_2_5,true,2.101,0.994,3.094
+10,Netherlands,Japan,2-2,1-1,false,6,0.062239,2.776769,1-1:0.113; 1-2:0.084; 2-1:0.084; 0-1:0.077; 1-0:0.076,draw,team_b,false,over_2_5,over_2_5,true,1.475,1.489,2.964
+11,Ivory Coast,Ecuador,1-0,1-1,false,3,0.108495,2.221047,1-1:0.131; 0-1:0.110; 1-0:0.108; 0-0:0.091; 1-2:0.079,team_a,team_b,false,under_2_5,under_2_5,true,1.190,1.205,2.395
+12,Sweden,Tunisia,5-1,1-1,false,25,0.006136,5.093613,1-1:0.109; 2-1:0.088; 1-2:0.080; 1-0:0.074; 0-1:0.067,team_a,team_a,true,over_2_5,over_2_5,true,1.614,1.473,3.087
+13,Spain,Cape Verde,0-0,2-0,false,7,0.052919,2.939000,2-0:0.124; 1-0:0.115; 2-1:0.096; 3-0:0.090; 1-1:0.088,draw,team_a,false,under_2_5,over_2_5,false,2.168,0.771,2.938
+14,Belgium,Egypt,1-1,1-1,true,1,0.112311,2.186487,1-1:0.112; 2-1:0.096; 1-0:0.095; 2-0:0.081; 1-2:0.066,draw,team_a,false,under_2_5,over_2_5,false,1.706,1.181,2.886
+15,Saudi Arabia,Uruguay,1-1,1-1,true,1,0.124895,2.080285,1-1:0.125; 0-1:0.106; 1-0:0.089; 1-2:0.088; 0-0:0.075,draw,team_b,false,under_2_5,under_2_5,true,1.174,1.411,2.585
+16,Iran,New Zealand,2-2,1-1,false,7,0.061109,2.795097,1-1:0.112; 2-1:0.091; 1-0:0.084; 1-2:0.075; 0-1:0.069,draw,team_a,false,over_2_5,over_2_5,true,1.633,1.336,2.969
+17,France,Senegal,3-1,1-1,false,10,0.045845,3.082494,1-1:0.111; 2-1:0.087; 1-2:0.081; 1-0:0.076; 0-1:0.070,team_a,team_a,true,over_2_5,over_2_5,true,1.577,1.456,3.033
+18,Iraq,Norway,1-4,0-2,false,12,0.034411,3.369368,0-2:0.110; 0-1:0.107; 1-2:0.099; 1-1:0.097; 0-3:0.075,team_b,team_b,true,over_2_5,over_2_5,true,0.903,2.042,2.945
+19,Argentina,Algeria,3-0,1-1,false,10,0.044440,3.113613,1-1:0.117; 1-0:0.102; 2-1:0.094; 2-0:0.083; 0-1:0.073,team_a,team_a,true,over_2_5,over_2_5,true,1.614,1.144,2.759
+20,Austria,Jordan,3-1,1-1,false,5,0.063099,2.763050,1-1:0.104; 2-1:0.099; 1-0:0.095; 2-0:0.091; 3-1:0.063,team_a,team_a,true,over_2_5,over_2_5,true,1.912,1.089,3.001
+21,Portugal,DR Congo,1-1,1-1,true,1,0.114062,2.171017,1-1:0.114; 1-0:0.101; 2-1:0.096; 2-0:0.085; 0-1:0.068,draw,team_a,false,under_2_5,over_2_5,false,1.685,1.130,2.816
+22,England,Croatia,4-2,1-1,false,17,0.013971,4.270754,1-1:0.111; 1-0:0.099; 2-1:0.097; 2-0:0.087; 0-1:0.063,team_a,team_a,true,over_2_5,over_2_5,true,1.756,1.117,2.873
+23,Ghana,Panama,1-0,1-1,false,5,0.074727,2.593916,1-1:0.115; 1-2:0.088; 0-1:0.083; 2-1:0.079; 1-0:0.075,team_a,team_b,false,under_2_5,over_2_5,false,1.380,1.536,2.915
+24,Uzbekistan,Colombia,1-3,1-1,false,10,0.046853,3.060742,1-1:0.118; 0-1:0.095; 1-2:0.091; 1-0:0.077; 2-1:0.074,team_b,team_b,true,over_2_5,over_2_5,true,1.242,1.541,2.783
+25,Czechia,South Africa,1-0,1-1,false,2,0.094059,2.363837,1-1:0.117; 1-0:0.094; 2-1:0.092; 0-1:0.075; 2-0:0.074,team_a,team_a,true,under_2_5,over_2_5,false,1.567,1.246,2.813
+26,Switzerland,Bosnia and Herzegovina,4-1,1-0,false,14,0.018628,3.983074,1-0:0.143; 1-1:0.119; 2-0:0.111; 2-1:0.092; 0-0:0.092,team_a,team_a,true,over_2_5,under_2_5,false,1.555,0.832,2.387
+27,Canada,Qatar,6-0,1-0,false,24,0.004269,5.456298,1-0:0.105; 2-0:0.103; 1-1:0.101; 2-1:0.099; 3-0:0.068,team_a,team_a,true,over_2_5,over_2_5,true,1.965,0.965,2.930
+28,Mexico,South Korea,1-0,1-1,false,2,0.090609,2.401202,1-1:0.118; 1-0:0.091; 2-1:0.089; 0-1:0.079; 1-2:0.077,team_a,team_a,true,under_2_5,over_2_5,false,1.502,1.306,2.809
+29,United States,Australia,2-0,1-1,false,7,0.055780,2.886341,1-1:0.109; 2-1:0.085; 1-2:0.083; 1-0:0.072; 0-1:0.070,team_a,team_a,true,under_2_5,over_2_5,false,1.558,1.522,3.080
+30,Scotland,Morocco,0-1,0-2,false,2,0.123767,2.089354,0-2:0.124; 0-1:0.124; 1-2:0.097; 1-1:0.097; 0-3:0.083,team_b,team_b,true,under_2_5,over_2_5,false,0.781,2.003,2.785
+31,Brazil,Haiti,3-0,1-1,false,10,0.046202,3.074735,1-1:0.107; 2-1:0.096; 1-0:0.086; 2-0:0.077; 1-2:0.066,team_a,team_a,true,over_2_5,over_2_5,true,1.798,1.245,3.043
+32,Turkiye,Paraguay,0-1,1-1,false,6,0.069033,2.673173,1-1:0.114; 2-1:0.094; 1-0:0.093; 2-0:0.076; 1-2:0.070,team_b,team_a,false,under_2_5,over_2_5,false,1.650,1.231,2.881

@@ -13,11 +13,18 @@ env/
 
 .env
 .env.*
+!.env.example
+
+.vscode/
+.idea/
 
 *.sqlite
 *.sqlite3
 *.db
+*.log
 *.bundle
+*.tmp
+*.bak
 
 outputs/charts/
 

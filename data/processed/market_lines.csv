@@ -1,0 +1,65 @@
+screenshot_id,captured_at_local,source_order,team_a,team_b,market_type,selection,selection_side,line,price,price_format,source,notes
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T13:00:00+08:00,21,Portugal,DR Congo,asian_handicap,Portugal -1.5,team_a,-1.5,0.88,hong_kong,user_screenshot,match 21 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T13:00:00+08:00,21,Portugal,DR Congo,asian_handicap,DR Congo +1.5,team_b,1.5,1.01,hong_kong,user_screenshot,match 21 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T13:00:00+08:00,21,Portugal,DR Congo,total,Over 2.5/3,over,2.75,1.07,hong_kong,user_screenshot,match 21 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T13:00:00+08:00,21,Portugal,DR Congo,total,Under 2.5/3,under,2.75,0.81,hong_kong,user_screenshot,match 21 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T16:00:00+08:00,22,England,Croatia,asian_handicap,England -0.5/1,team_a,-0.75,0.94,hong_kong,user_screenshot,match 22 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T16:00:00+08:00,22,England,Croatia,asian_handicap,Croatia +0.5/1,team_b,0.75,0.95,hong_kong,user_screenshot,match 22 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T16:00:00+08:00,22,England,Croatia,total,Over 2/2.5,over,2.25,0.86,hong_kong,user_screenshot,match 22 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T16:00:00+08:00,22,England,Croatia,total,Under 2/2.5,under,2.25,1.02,hong_kong,user_screenshot,match 22 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T19:00:00+08:00,23,Ghana,Panama,asian_handicap,Ghana -0/0.5,team_a,-0.25,1.04,hong_kong,user_screenshot,match 23 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T19:00:00+08:00,23,Ghana,Panama,asian_handicap,Panama +0/0.5,team_b,0.25,0.85,hong_kong,user_screenshot,match 23 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T19:00:00+08:00,23,Ghana,Panama,total,Over 2/2.5,over,2.25,1.07,hong_kong,user_screenshot,match 23 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T19:00:00+08:00,23,Ghana,Panama,total,Under 2/2.5,under,2.25,0.81,hong_kong,user_screenshot,match 23 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T22:00:00+08:00,24,Uzbekistan,Colombia,asian_handicap,Uzbekistan +1/1.5,team_a,1.25,1.01,hong_kong,user_screenshot,match 24 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T22:00:00+08:00,24,Uzbekistan,Colombia,asian_handicap,Colombia -1/1.5,team_b,-1.25,0.88,hong_kong,user_screenshot,match 24 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T22:00:00+08:00,24,Uzbekistan,Colombia,total,Over 2.5,over,2.5,0.96,hong_kong,user_screenshot,match 24 screenshot market
+e9cd39fa0494b9ece534d3d899d3ec9d,2026-06-19T22:00:00+08:00,24,Uzbekistan,Colombia,total,Under 2.5,under,2.5,0.92,hong_kong,user_screenshot,match 24 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T12:00:00+08:00,25,Czechia,South Africa,asian_handicap,Czechia -0.5,team_a,-0.5,0.89,hong_kong,user_screenshot,match 25 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T12:00:00+08:00,25,Czechia,South Africa,asian_handicap,South Africa +0.5,team_b,0.5,0.99,hong_kong,user_screenshot,match 25 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T12:00:00+08:00,25,Czechia,South Africa,total,Over 2/2.5,over,2.25,0.89,hong_kong,user_screenshot,match 25 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T12:00:00+08:00,25,Czechia,South Africa,total,Under 2/2.5,under,2.25,0.98,hong_kong,user_screenshot,match 25 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T15:00:00+08:00,26,Switzerland,Bosnia and Herzegovina,asian_handicap,Switzerland -1,team_a,-1,0.99,hong_kong,user_screenshot,match 26 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T15:00:00+08:00,26,Switzerland,Bosnia and Herzegovina,asian_handicap,Bosnia and Herzegovina +1,team_b,1,0.89,hong_kong,user_screenshot,match 26 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T15:00:00+08:00,26,Switzerland,Bosnia and Herzegovina,total,Over 2.5,over,2.5,1.02,hong_kong,user_screenshot,match 26 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T15:00:00+08:00,26,Switzerland,Bosnia and Herzegovina,total,Under 2.5,under,2.5,0.85,hong_kong,user_screenshot,match 26 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T18:00:00+08:00,27,Canada,Qatar,asian_handicap,Canada -1.5,team_a,-1.5,0.89,hong_kong,user_screenshot,match 27 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T18:00:00+08:00,27,Canada,Qatar,asian_handicap,Qatar +1.5,team_b,1.5,0.99,hong_kong,user_screenshot,match 27 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T18:00:00+08:00,27,Canada,Qatar,total,Over 2.5/3,over,2.75,0.90,hong_kong,user_screenshot,match 27 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T18:00:00+08:00,27,Canada,Qatar,total,Under 2.5/3,under,2.75,0.97,hong_kong,user_screenshot,match 27 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T21:00:00+08:00,28,Mexico,South Korea,asian_handicap,Mexico -0.5,team_a,-0.5,1.04,hong_kong,user_screenshot,match 28 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T21:00:00+08:00,28,Mexico,South Korea,asian_handicap,South Korea +0.5,team_b,0.5,0.84,hong_kong,user_screenshot,match 28 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T21:00:00+08:00,28,Mexico,South Korea,total,Over 2/2.5,over,2.25,1.06,hong_kong,user_screenshot,match 28 screenshot market
+6be702d5901caf9e1c9da891c2ddc9c7,2026-06-19T21:00:00+08:00,28,Mexico,South Korea,total,Under 2/2.5,under,2.25,0.81,hong_kong,user_screenshot,match 28 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T15:00:00+08:00,29,United States,Australia,asian_handicap,United States -1,team_a,-1,1.06,hong_kong,user_screenshot,match 29 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T15:00:00+08:00,29,United States,Australia,asian_handicap,Australia +1,team_b,1,0.82,hong_kong,user_screenshot,match 29 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T15:00:00+08:00,29,United States,Australia,total,Over 2.5,over,2.5,0.93,hong_kong,user_screenshot,match 29 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T15:00:00+08:00,29,United States,Australia,total,Under 2.5,under,2.5,0.94,hong_kong,user_screenshot,match 29 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T18:00:00+08:00,30,Scotland,Morocco,asian_handicap,Scotland +0.5/1,team_a,0.75,0.92,hong_kong,user_screenshot,match 30 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T18:00:00+08:00,30,Scotland,Morocco,asian_handicap,Morocco -0.5/1,team_b,-0.75,0.96,hong_kong,user_screenshot,match 30 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T18:00:00+08:00,30,Scotland,Morocco,total,Over 2/2.5,over,2.25,0.98,hong_kong,user_screenshot,match 30 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T18:00:00+08:00,30,Scotland,Morocco,total,Under 2/2.5,under,2.25,0.89,hong_kong,user_screenshot,match 30 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T20:30:00+08:00,31,Brazil,Haiti,asian_handicap,Brazil -2.5,team_a,-2.5,0.86,hong_kong,user_screenshot,match 31 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T20:30:00+08:00,31,Brazil,Haiti,asian_handicap,Haiti +2.5,team_b,2.5,1.00,hong_kong,user_screenshot,match 31 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T20:30:00+08:00,31,Brazil,Haiti,total,Over 3.5,over,3.5,0.84,hong_kong,user_screenshot,match 31 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T20:30:00+08:00,31,Brazil,Haiti,total,Under 3.5,under,3.5,1.00,hong_kong,user_screenshot,match 31 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T23:00:00+08:00,32,Turkiye,Paraguay,asian_handicap,Turkiye -0.5,team_a,-0.5,1.02,hong_kong,user_screenshot,match 32 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T23:00:00+08:00,32,Turkiye,Paraguay,asian_handicap,Paraguay +0.5,team_b,0.5,0.86,hong_kong,user_screenshot,match 32 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T23:00:00+08:00,32,Turkiye,Paraguay,total,Over 2/2.5,over,2.25,0.84,hong_kong,user_screenshot,match 32 screenshot market
+2d0a1a20e77df65a6b572bdcb2da594b,2026-06-19T23:00:00+08:00,32,Turkiye,Paraguay,total,Under 2/2.5,under,2.25,1.03,hong_kong,user_screenshot,match 32 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T13:00:00+08:00,33,Netherlands,Sweden,asian_handicap,Netherlands -0.5/1,team_a,-0.75,0.88,hong_kong,user_screenshot,match 33 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T13:00:00+08:00,33,Netherlands,Sweden,asian_handicap,Sweden +0.5/1,team_b,0.75,1.01,hong_kong,user_screenshot,match 33 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T13:00:00+08:00,33,Netherlands,Sweden,total,Over 2.5/3,over,2.75,0.82,hong_kong,user_screenshot,match 33 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T13:00:00+08:00,33,Netherlands,Sweden,total,Under 2.5/3,under,2.75,1.06,hong_kong,user_screenshot,match 33 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T16:00:00+08:00,34,Germany,Ivory Coast,asian_handicap,Germany -1,team_a,-1,0.83,hong_kong,user_screenshot,match 34 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T16:00:00+08:00,34,Germany,Ivory Coast,asian_handicap,Ivory Coast +1,team_b,1,1.06,hong_kong,user_screenshot,match 34 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T16:00:00+08:00,34,Germany,Ivory Coast,total,Over 3,over,3,0.96,hong_kong,user_screenshot,match 34 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T16:00:00+08:00,34,Germany,Ivory Coast,total,Under 3,under,3,0.92,hong_kong,user_screenshot,match 34 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T20:00:00+08:00,35,Ecuador,Curacao,asian_handicap,Ecuador -2/2.5,team_a,-2.25,0.94,hong_kong,user_screenshot,match 35 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T20:00:00+08:00,35,Ecuador,Curacao,asian_handicap,Curacao +2/2.5,team_b,2.25,0.93,hong_kong,user_screenshot,match 35 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T20:00:00+08:00,35,Ecuador,Curacao,total,Over 3,over,3,0.91,hong_kong,user_screenshot,match 35 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T20:00:00+08:00,35,Ecuador,Curacao,total,Under 3,under,3,0.95,hong_kong,user_screenshot,match 35 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T23:59:00+08:00,36,Tunisia,Japan,asian_handicap,Tunisia +1,team_a,1,0.83,hong_kong,user_screenshot,match 36 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T23:59:00+08:00,36,Tunisia,Japan,asian_handicap,Japan -1,team_b,-1,1.06,hong_kong,user_screenshot,match 36 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T23:59:00+08:00,36,Tunisia,Japan,total,Over 2/2.5,over,2.25,0.85,hong_kong,user_screenshot,match 36 screenshot market
+d3bdde1a15563c8dcc599932c73a3cfa,2026-06-20T23:59:00+08:00,36,Tunisia,Japan,total,Under 2/2.5,under,2.25,1.03,hong_kong,user_screenshot,match 36 screenshot market

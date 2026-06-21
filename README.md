@@ -2,6 +2,17 @@
 
 面向 2026 年 FIFA 世界杯的赛事资料收集、数据分析与赛果预测项目。
 
+## 快速开始
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements-dev.txt
+python -m pytest
+```
+
+需要抓取赔率快照时，先复制 `.env.example` 为 `.env`，并设置 `THE_ODDS_API_KEY`。
+
 ## 项目目标
 
 1. 收集世界杯基础资料：参赛队、分组、赛程、场馆、开球时间、历史战绩。
@@ -159,3 +170,29 @@ codex-fball/
 - Streamlit 仪表盘：适合交互式展示预测结果。
 - Web App：适合做成完整产品。
 - Notebook 项目：适合探索和讲解模型过程。
+
+## 本地网页控制台
+
+推荐用启动器打开项目自带的轻量网页界面：
+
+```powershell
+.\scripts\start_web_console.ps1
+```
+
+也可以直接双击项目根目录下的 `start_web_console.cmd`。
+
+如果想在当前终端前台运行，方便查看日志：
+
+```powershell
+python src/web_console.py
+```
+
+然后打开 http://127.0.0.1:8765。
+
+注意：这是本机临时服务。电脑重启、终端关闭、Python 进程退出后，网页会显示连接失败；重新运行启动器即可恢复。
+
+控制台支持：
+
+- 浏览 `src`、`data/processed`、`outputs/reports`、`docs`、`config` 和 `tests`。
+- 将 CSV 以表格预览，将 Markdown 报告转成网页预览，将代码/配置文件保留格式展示。
+- 从网页运行白名单流程：构建模型输入、模拟单场比分、模拟小组出线、生成赛前报告、运行测试。

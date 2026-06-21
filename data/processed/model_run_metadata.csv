@@ -1,0 +1,2 @@
+run_name,seed,draws,max_goals,tempo_std_log_xg,model_note
+robust_match_simulator,20260620,2500,8,0.1000,Uncertainty-aware Poisson mixture; market lines remain validation inputs only.

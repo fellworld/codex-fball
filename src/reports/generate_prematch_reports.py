@@ -17,6 +17,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--power-ratings", default="data/processed/team_power_ratings.csv")
     parser.add_argument("--form", default="data/processed/team_form_features.csv")
     parser.add_argument("--simulation", default="data/processed/match_simulation_summary.csv")
+    parser.add_argument("--score-probabilities", default="data/processed/match_score_probabilities.csv")
+    parser.add_argument("--match-intelligence", default="data/processed/pre_match_intelligence_1_8.json")
+    parser.add_argument("--skip-match-intelligence", action="store_true")
     parser.add_argument("--output-dir", default="outputs/reports/prematch")
     return parser.parse_args()
 
@@ -65,6 +68,7 @@ def report_body(
     clubs: dict[str, dict[str, str]],
     coaches: dict[str, dict[str, str]],
     simulations: dict[str, dict[str, str]],
+    top_scores: dict[str, str],
 ) -> str:
     team_a = match["team_a"]
     team_b = match["team_b"]
@@ -84,6 +88,7 @@ def report_body(
             f"- Simulated win/draw/loss: {sim.get('team_a_win_probability', '')} / {sim.get('draw_probability', '')} / {sim.get('team_b_win_probability', '')}",
             f"- Simulated over 2.5: {sim.get('over_2_5_probability', '')}",
             f"- Most likely score: {sim.get('most_likely_score', '')}",
+            f"- Top scorelines: {top_scores.get(match['source_order'], '')}",
             "",
             "## Team Snapshot",
             "",
@@ -117,6 +122,16 @@ def main() -> int:
     clubs = {row["team"]: row for row in read_csv(args.club_features)}
     coaches = {row["team"]: row for row in read_csv(args.coaches)}
     simulations = {row["source_order"]: row for row in read_csv(args.simulation)}
+    score_rows_by_match: dict[str, list[dict[str, str]]] = {}
+    for row in read_csv(args.score_probabilities):
+        score_rows_by_match.setdefault(row["source_order"], []).append(row)
+    top_scores = {
+        source_order: "; ".join(
+            f"{row['score']}:{float(row['probability']):.3f}"
+            for row in sorted(rows, key=lambda item: float(item["probability"]), reverse=True)[:5]
+        )
+        for source_order, rows in score_rows_by_match.items()
+    }
 
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -128,13 +143,24 @@ def main() -> int:
             f"{slugify(match['team_a'])}-vs-{slugify(match['team_b'])}.md"
         )
         path = output_dir / filename
-        path.write_text(report_body(match, ratings, powers, forms, clubs, coaches, simulations), encoding="utf-8")
+        path.write_text(
+            report_body(match, ratings, powers, forms, clubs, coaches, simulations, top_scores),
+            encoding="utf-8",
+        )
         index_rows.append(
             f"- [{match['source_order']}. {match['team_a']} vs {match['team_b']}]({filename})"
         )
 
     (output_dir / "index.md").write_text("\n".join(index_rows) + "\n", encoding="utf-8")
     print(f"Wrote {len(matches)} pre-match reports to {output_dir}.")
+
+    intelligence_path = Path(args.match_intelligence)
+    if not args.skip_match_intelligence and intelligence_path.exists():
+        from reports.inject_match_intelligence import inject_reports
+
+        injected_count = inject_reports(data_path=intelligence_path, report_dir=output_dir)
+        print(f"Injected pre-match intelligence into {injected_count} reports.")
+
     return 0
 
 

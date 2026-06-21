@@ -1,0 +1,7 @@
+group_type,group_value,recommendations,positive_settlements,non_loss_settlements,negative_settlements,positive_rate,non_loss_rate,net_units,roi_per_unit_stake
+all,all,12,4,4,8,0.3333,0.3333,-4.6500,-0.3875
+market_type,asian_handicap,5,2,2,3,0.4000,0.4000,-1.5100,-0.3020
+market_type,total,7,2,2,5,0.2857,0.2857,-3.1400,-0.4486
+set_id,matches_21_24,4,2,2,2,0.5000,0.5000,-0.1300,-0.0325
+set_id,matches_25_28,4,0,0,4,0.0000,0.0000,-4.0000,-1.0000
+set_id,matches_29_32,4,2,2,2,0.5000,0.5000,-0.5200,-0.1300

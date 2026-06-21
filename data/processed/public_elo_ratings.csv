@@ -1,49 +1,49 @@
 team,team_code,elo_rank,elo_rating,source,source_checked_at
-Spain,ESP,1,2155,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Argentina,ARG,2,2114,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-France,FRA,3,2062,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-England,ENG,4,2021,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Brazil,BRA,5,1991,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Portugal,POR,6,1986,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Colombia,COL,7,1977,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Netherlands,NED,8,1944,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Ecuador,ECU,9,1935,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Germany,GER,10,1932,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Norway,NOR,11,1917,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Türkiye,TUR,12,1911,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Croatia,CRO,13,1908,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Japan,JPN,14,1906,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Belgium,BEL,15,1893,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Uruguay,URU,16,1892,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Switzerland,SUI,17,1891,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Mexico,MEX,18,1875,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Senegal,SEN,19,1867,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Paraguay,PAR,22,1833,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Austria,AUT,23,1830,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Morocco,MAR,24,1824,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Canada,CAN,25,1788,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Australia,AUS,28,1777,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-IR Iran,IRN,29,1772,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Algeria,ALG,32,1760,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Korea Republic,KOR,33,1758,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Czechia,CZE,35,1740,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Panama,PAN,37,1730,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-USA,USA,38,1726,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Uzbekistan,UZB,40,1718,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Sweden,SWE,42,1712,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Egypt,EGY,48,1696,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Côte D'Ivoire,CIV,49,1695,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Jordan,JOR,50,1685,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Congo DR,COD,54,1661,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Tunisia,TUN,59,1628,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Iraq,IRQ,60,1618,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Bosnia And Herzegovina,BIH,65,1595,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Cabo Verde,CPV,68,1578,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Saudi Arabia,KSA,70,1569,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-New Zealand,NZL,72,1562,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Haiti,HAI,73,1548,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-South Africa,RSA,77,1528,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Ghana,GHA,81,1510,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Curaçao,CUW,91,1434,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Qatar,QAT,97,1421,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
-Scotland,SCO,202,853,https://www.eloratings.net/World.tsv,2026-06-07T11:54:41+00:00
+Spain,ESP,1,2157,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Argentina,ARG,2,2115,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+France,FRA,3,2063,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+England,ENG,4,2024,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Brazil,BRA,5,1991,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Portugal,POR,6,1989,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Colombia,COL,7,1982,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Netherlands,NED,8,1948,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Ecuador,ECU,9,1938,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Germany,GER,10,1932,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Norway,NOR,11,1914,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Croatia,CRO,12,1912,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Türkiye,TUR,13,1911,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Japan,JPN,14,1906,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Belgium,BEL,15,1894,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Uruguay,URU,16,1892,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Switzerland,SUI,17,1891,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Mexico,MEX,18,1881,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Senegal,SEN,21,1860,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Austria,AUT,22,1830,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Morocco,MAR,23,1827,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Korea Republic,KOR,24,1786,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Paraguay,PAR,26,1780,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+USA,USA,26,1780,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Australia,AUS,29,1777,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Algeria,ALG,30,1772,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+IR Iran,IRN,30,1772,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Canada,CAN,33,1767,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Panama,PAN,38,1730,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Uzbekistan,UZB,41,1714,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Czechia,CZE,42,1712,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Sweden,SWE,42,1712,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Egypt,EGY,48,1696,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Côte D'Ivoire,CIV,49,1695,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Jordan,JOR,52,1680,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Congo DR,COD,55,1652,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Tunisia,TUN,58,1628,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Bosnia And Herzegovina,BIH,60,1616,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Iraq,IRQ,64,1607,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Cabo Verde,CPV,68,1578,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Saudi Arabia,KSA,69,1576,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+New Zealand,NZL,72,1562,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Haiti,HAI,73,1548,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+South Africa,RSA,80,1511,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Ghana,GHA,81,1510,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Curaçao,CUW,91,1434,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Qatar,QAT,96,1421,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00
+Scotland,SCO,204,853,https://www.eloratings.net/World.tsv,2026-06-13T15:39:41+00:00

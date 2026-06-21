@@ -1,49 +1,49 @@
 team,team_code,recent_matches,recent_wins,recent_draws,recent_losses,recent_goals_for,recent_goals_against,avg_goals_for,avg_goals_against,points_per_match,strength_of_schedule,raw_form_score,form_rating,latest_match_date,source,source_checked_at
-Spain,ESP,20,13,7,0,52,19,2.600,0.950,2.300,1718.8,71.688,100.00,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Argentina,ARG,20,15,2,3,44,9,2.200,0.450,2.350,1668.5,69.575,97.05,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-France,FRA,20,13,2,5,43,23,2.150,1.150,2.050,1725.3,61.617,85.95,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-England,ENG,20,15,1,4,45,10,2.250,0.500,2.300,1594.1,65.105,90.82,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Brazil,BRA,20,11,4,5,38,20,1.900,1.000,1.850,1778.7,59.235,82.63,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Portugal,POR,20,12,6,2,46,19,2.300,0.950,2.100,1588.6,58.580,81.72,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Colombia,COL,20,8,5,7,36,23,1.800,1.150,1.450,1773.2,49.712,69.35,2026-06-01,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Netherlands,NED,20,9,8,3,49,21,2.450,1.050,1.750,1690.3,58.167,81.14,2026-06-03,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Ecuador,ECU,20,7,12,1,18,8,0.900,0.400,1.650,1776.7,49.733,69.37,2026-05-30,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Germany,GER,20,14,3,3,52,20,2.600,1.000,2.250,1628.2,65.907,91.94,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Norway,NOR,20,14,3,3,59,19,2.950,0.950,2.250,1588.5,67.773,94.54,2026-06-01,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Türkiye,TUR,20,14,3,3,42,22,2.100,1.100,2.250,1595.5,58.577,81.71,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Croatia,CRO,20,11,4,5,40,21,2.000,1.050,1.850,1632.2,52.558,73.32,2026-06-02,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Japan,JPN,20,14,4,2,48,9,2.400,0.450,2.300,1600.0,67.252,93.81,2026-05-31,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Belgium,BEL,20,10,5,5,52,22,2.600,1.100,1.750,1613.0,55.452,77.35,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Uruguay,URU,20,5,11,4,17,17,0.850,0.850,1.300,1728.5,37.377,52.14,2026-03-31,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Switzerland,SUI,20,8,7,5,40,26,2.000,1.300,1.550,1682.3,47.915,66.84,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Mexico,MEX,20,11,7,2,29,14,1.450,0.700,2.000,1699.6,55.580,77.53,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Senegal,SEN,20,14,3,3,47,15,2.350,0.750,2.250,1604.0,63.950,89.21,2026-05-31,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Paraguay,PAR,20,9,6,5,25,18,1.250,0.900,1.650,1765.8,49.190,68.62,2026-06-05,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Austria,AUT,20,12,4,4,45,15,2.250,0.750,2.000,1582.0,57.352,80.00,2026-06-01,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Morocco,MAR,20,16,4,0,41,6,2.050,0.300,2.600,1569.5,68.673,95.79,2026-06-02,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Canada,CAN,20,10,8,2,31,11,1.550,0.550,1.900,1613.2,51.512,71.86,2026-06-05,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Australia,AUS,20,10,5,5,29,17,1.450,0.850,1.750,1638.2,46.962,65.51,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-IR Iran,IRN,20,12,5,3,37,15,1.850,0.750,2.050,1539.6,52.130,72.72,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Algeria,ALG,20,14,4,2,42,12,2.100,0.600,2.300,1569.8,61.690,86.05,2026-06-03,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Korea Republic,KOR,20,12,5,3,35,19,1.750,0.950,2.050,1628.3,54.165,75.56,2026-06-03,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Czechia,CZE,20,11,6,3,40,23,2.000,1.150,1.950,1544.2,49.263,68.72,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Panama,PAN,20,10,7,3,37,23,1.850,1.150,1.850,1564.8,46.992,65.55,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-USA,USA,20,9,2,9,33,32,1.650,1.600,1.450,1779.5,45.377,63.30,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Uzbekistan,UZB,20,9,8,3,24,14,1.200,0.700,1.750,1599.5,43.578,60.79,2026-06-01,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Sweden,SWE,20,10,4,6,43,29,2.150,1.450,1.700,1573.0,45.597,63.61,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Egypt,EGY,20,9,7,4,24,15,1.200,0.750,1.700,1614.3,43.065,60.07,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Côte D'Ivoire,CIV,20,13,3,4,36,10,1.800,0.500,2.100,1539.4,54.270,75.70,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Jordan,JOR,20,8,4,8,33,29,1.650,1.450,1.400,1583.5,35.727,49.84,2026-05-31,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Congo DR,COD,20,13,3,4,28,11,1.400,0.550,2.100,1549.7,50.435,70.35,2026-06-03,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Tunisia,TUN,20,9,6,5,33,21,1.650,1.050,1.650,1599.0,43.800,61.10,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Iraq,IRQ,20,10,4,6,21,20,1.050,1.000,1.700,1584.0,38.302,53.43,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Bosnia And Herzegovina,BIH,0,0,0,0,0,0,0.000,0.000,0.000,1500.0,0.000,0.00,,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Cabo Verde,CPV,20,8,7,5,27,19,1.350,0.950,1.550,1533.2,36.410,50.79,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Saudi Arabia,KSA,20,8,3,9,22,25,1.100,1.250,1.350,1644.0,33.748,47.08,2026-06-05,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-New Zealand,NZL,20,8,2,10,43,25,2.150,1.250,1.300,1662.4,44.270,61.75,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Haiti,HAI,20,10,4,6,45,23,2.250,1.150,1.700,1521.0,46.097,64.30,2026-06-05,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-South Africa,RSA,20,10,6,4,29,15,1.450,0.750,1.800,1532.8,43.290,60.39,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Ghana,GHA,20,6,5,9,27,23,1.350,1.150,1.150,1590.0,30.653,42.76,2026-06-02,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Curaçao,CUW,20,9,6,5,40,21,2.000,1.050,1.650,1498.3,42.265,58.96,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Qatar,QAT,20,4,7,9,22,35,1.100,1.750,0.950,1541.8,17.940,25.03,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
-Scotland,SCO,20,10,2,8,34,24,1.700,1.200,1.600,1616.2,43.208,60.27,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-07T11:57:46+00:00
+Spain,ESP,20,13,7,0,53,19,2.650,0.950,2.300,1692.8,70.888,100.00,2026-06-08,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Argentina,ARG,20,15,2,3,45,9,2.250,0.450,2.350,1652.3,69.268,97.72,2026-06-09,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+France,FRA,20,14,2,4,45,22,2.250,1.100,2.200,1693.5,64.073,90.39,2026-06-08,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+England,ENG,20,16,1,3,47,8,2.350,0.400,2.450,1561.0,67.850,95.72,2026-06-10,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Brazil,BRA,20,11,4,5,38,20,1.900,1.000,1.850,1775.3,59.065,83.32,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Portugal,POR,20,13,5,2,48,20,2.400,1.000,2.200,1564.0,59.800,84.36,2026-06-10,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Colombia,COL,20,9,5,6,38,22,1.900,1.100,1.600,1748.7,52.532,74.11,2026-06-07,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Netherlands,NED,20,10,8,2,50,20,2.500,1.000,1.900,1675.8,60.990,86.04,2026-06-08,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Ecuador,ECU,20,8,11,1,20,7,1.000,0.350,1.750,1743.6,51.230,72.27,2026-06-07,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Germany,GER,20,14,3,3,52,20,2.600,1.000,2.250,1631.5,66.073,93.21,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Norway,NOR,20,14,4,2,59,17,2.950,0.850,2.300,1605.0,70.200,99.03,2026-06-07,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Croatia,CRO,20,12,3,5,41,21,2.050,1.050,1.950,1630.0,54.752,77.24,2026-06-07,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Türkiye,TUR,20,14,3,3,42,22,2.100,1.100,2.250,1598.8,58.737,82.86,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Japan,JPN,20,14,4,2,48,9,2.400,0.450,2.300,1601.2,67.312,94.96,2026-05-31,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Belgium,BEL,20,10,5,5,52,22,2.600,1.100,1.750,1616.3,55.617,78.46,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Uruguay,URU,20,5,11,4,17,17,0.850,0.850,1.300,1726.2,37.260,52.56,2026-03-31,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Switzerland,SUI,20,8,7,5,40,26,2.000,1.300,1.550,1685.1,48.055,67.79,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Mexico,MEX,20,11,7,2,28,12,1.400,0.600,2.000,1702.5,55.927,78.90,2026-06-11,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Senegal,SEN,20,14,3,3,47,15,2.350,0.750,2.250,1609.9,64.245,90.63,2026-06-09,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Austria,AUT,20,12,4,4,45,15,2.250,0.750,2.000,1583.2,57.408,80.98,2026-06-01,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Morocco,MAR,20,15,5,0,41,7,2.050,0.350,2.500,1587.4,67.420,95.11,2026-06-07,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Korea Republic,KOR,20,13,4,3,37,20,1.850,1.000,2.150,1637.7,57.083,80.53,2026-06-11,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Paraguay,PAR,20,9,6,5,25,20,1.250,1.000,1.650,1785.0,49.448,69.76,2026-06-12,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+USA,USA,20,10,2,8,37,32,1.850,1.600,1.600,1780.4,50.120,70.70,2026-06-12,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Australia,AUS,20,10,5,5,29,17,1.450,0.850,1.750,1641.2,47.108,66.45,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Algeria,ALG,20,14,4,2,44,12,2.200,0.600,2.300,1569.3,62.667,88.40,2026-06-10,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+IR Iran,IRN,20,12,5,3,37,15,1.850,0.750,2.050,1538.8,52.090,73.48,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Canada,CAN,20,9,9,2,31,12,1.550,0.600,1.800,1616.5,49.523,69.86,2026-06-12,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Panama,PAN,20,10,7,3,37,23,1.850,1.150,1.850,1563.8,46.938,66.21,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Uzbekistan,UZB,20,9,7,4,25,16,1.250,0.800,1.700,1607.0,42.852,60.45,2026-06-08,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Czechia,CZE,20,11,6,3,40,21,2.000,1.050,1.950,1559.3,50.715,71.54,2026-06-11,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Sweden,SWE,20,10,4,6,43,29,2.150,1.450,1.700,1573.4,45.620,64.36,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Egypt,EGY,20,9,7,4,24,15,1.200,0.750,1.700,1613.1,43.005,60.67,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Côte D'Ivoire,CIV,20,13,3,4,36,10,1.800,0.500,2.100,1540.2,54.308,76.61,2026-06-04,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Jordan,JOR,20,7,4,9,30,30,1.500,1.500,1.250,1608.8,32.440,45.76,2026-06-07,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Congo DR,COD,20,12,3,5,27,13,1.350,0.650,1.950,1549.6,46.530,65.64,2026-06-09,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Tunisia,TUN,20,9,6,5,33,21,1.650,1.050,1.650,1597.9,43.745,61.71,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Bosnia And Herzegovina,BIH,0,0,0,0,0,0,0.000,0.000,0.000,1500.0,0.000,0.00,,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Iraq,IRQ,20,9,4,7,20,22,1.000,1.100,1.550,1586.3,34.517,48.69,2026-06-09,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Cabo Verde,CPV,20,8,7,5,27,19,1.350,0.950,1.550,1533.2,36.410,51.36,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Saudi Arabia,KSA,20,8,4,8,21,23,1.050,1.150,1.400,1649.8,35.140,49.57,2026-06-09,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+New Zealand,NZL,20,8,2,10,43,25,2.150,1.250,1.300,1665.8,44.440,62.69,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Haiti,HAI,20,10,4,6,45,23,2.250,1.150,1.700,1524.0,46.250,65.24,2026-06-05,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+South Africa,RSA,20,10,5,5,28,16,1.400,0.800,1.750,1551.8,42.492,59.94,2026-06-11,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Ghana,GHA,20,6,5,9,27,23,1.350,1.150,1.150,1591.8,30.738,43.36,2026-06-02,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Curaçao,CUW,20,9,6,5,40,21,2.000,1.050,1.650,1497.2,42.212,59.55,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Qatar,QAT,20,4,7,9,22,35,1.100,1.750,0.950,1541.4,17.920,25.28,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00
+Scotland,SCO,20,10,2,8,34,24,1.700,1.200,1.600,1616.8,43.242,61.00,2026-06-06,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,2026-06-13T15:39:57+00:00

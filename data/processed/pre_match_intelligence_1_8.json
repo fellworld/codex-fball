@@ -1,0 +1,557 @@
+[
+  {
+    "source_order": 1,
+    "report_file": "01-mexico-vs-south-africa.md",
+    "teams": ["Mexico", "South Africa"],
+    "lineup_status": "reported confirmed lineups near kickoff",
+    "lineups": {
+      "Mexico": "Luis Malagon; Jorge Sanchez, Cesar Montes, Johan Vasquez, Jesus Gallardo; Edson Alvarez; Uriel Antuna, Luis Chavez, Orbelin Pineda, Hirving Lozano; Santiago Gimenez",
+      "South Africa": "Ronwen Williams; Nyiko Mobbie, Siyanda Xulu, Mothobi Mvala, Aubrey Modiba; Teboho Mokoena, Sphephelo Sithole, Themba Zwane; Percy Tau, Evidence Makgopa, Elias Mokwana"
+    },
+    "lineup_notes": "Lineups are stored as public preview/near-kickoff intelligence and should be refreshed from an official match center when available.",
+    "injuries_suspensions": {
+      "Mexico": "No major pre-match injury or suspension flag captured in the public preview sources used here.",
+      "South Africa": "No major pre-match injury or suspension flag captured in the public preview sources used here."
+    },
+    "tactical_tags": {
+      "Mexico": ["high territory", "wide rotations", "front-foot press", "set-piece threat"],
+      "South Africa": ["compact block", "transition attacks", "direct wide outlets", "defensive first half risk"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "FanDuel via CBS Sports public preview", "home": -250, "draw": 360, "away": 700},
+      "total_2_5": {"provider": "FanDuel via CBS Sports public preview", "over": 118, "under": -144}
+    },
+    "sources": [
+      {"label": "CBS Sports odds preview", "url": "https://www.cbssports.com/soccer/news/mexico-vs-south-africa-odds-picks-prediction-betting-preview-start-time-for-2026-world-cup-opener/"},
+      {"label": "DraftKings Network lineup and odds preview", "url": "https://dknetwork.draftkings.com/2026/06/11/world-cup-2026-mexico-vs-south-africa-lineups-odds/"},
+      {"label": "RotoWire opener recap and lineup context", "url": "https://www.rotowire.com/soccer/article/mexico-vs-south-africa-south-korea-vs-czechia-results-scores-recap-2026-world-cup-june-11-117817"}
+    ]
+  },
+  {
+    "source_order": 2,
+    "report_file": "02-south-korea-vs-czechia.md",
+    "teams": ["South Korea", "Czechia"],
+    "lineup_status": "confirmed starting lineups from Covers public preview",
+    "lineups": {
+      "South Korea": "Kim; Lee, Kim, Lee; Seol, Hwang, Paik, Lee; Lee, Lee; Son",
+      "Czechia": "Kovar; Krejci, Hranac, Chaloupek; Zeleny, Sojka, Soucek, Coufal; Provod, Sulc; Schick"
+    },
+    "lineup_notes": "Covers published abbreviated confirmed lineups; player-name expansion should be reconciled with official FIFA lineups later.",
+    "injuries_suspensions": {
+      "South Korea": "No key injuries reported by Covers.",
+      "Czechia": "No key injuries reported by Covers."
+    },
+    "tactical_tags": {
+      "South Korea": ["3-4-2-1", "Son-led transition", "wingback width", "medium press"],
+      "Czechia": ["3-4-2-1", "aerial target play", "set-piece emphasis", "Soucek second balls"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "Covers public odds snapshot", "home": 155, "draw": 215, "away": 185},
+      "total_2_5": {"provider": "Covers public odds snapshot", "over": 130, "under": -150}
+    },
+    "sources": [
+      {"label": "Covers South Korea vs Czechia", "url": "https://www.covers.com/world-cup/south-korea-vs-czechia-picks-predictions-odds-today-june-11-2026"},
+      {"label": "CBS Sports odds preview", "url": "https://www.cbssports.com/soccer/news/south-korea-czechia-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"},
+      {"label": "RotoWire Group A preview", "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-a-preview-mexico-south-africa-south-korea-czechia-tactics-lineups-set-pieces-odds-111369"}
+    ]
+  },
+  {
+    "source_order": 3,
+    "report_file": "03-canada-vs-bosnia-and-herzegovina.md",
+    "teams": ["Canada", "Bosnia and Herzegovina"],
+    "lineup_status": "reported predicted lineups from public previews",
+    "lineups": {
+      "Canada": "Maxime Crepeau; Alistair Johnston, Luc de Fougerolles, Derek Cornelius, Richie Laryea; Tajon Buchanan, Stephen Eustaquio, Ismael Kone, Liam Millar; Jonathan David, Tani Oluwaseyi",
+      "Bosnia and Herzegovina": "Nikola Vasilj; Nihad Mujakic, Adrian Barisic, Hrvoje Milicevic, Sead Kolasinac; Benjamin Tahirovic, Ivan Basic, Dzenis Burnic; Haris Tabakovic, Edin Dzeko, Esmir Bajraktarevic"
+    },
+    "lineup_notes": "Canada source formatting was inconsistent; treat the XI as a preview estimate until reconciled with official lineups.",
+    "injuries_suspensions": {
+      "Canada": "Alphonso Davies was a source-reported availability concern and is not included in the stored XI.",
+      "Bosnia and Herzegovina": "No major pre-match injury or suspension flag captured in the public preview sources used here."
+    },
+    "tactical_tags": {
+      "Canada": ["direct speed", "wide runners", "David focal point", "transition pressing"],
+      "Bosnia and Herzegovina": ["Dzeko target play", "deep buildup", "crossing volume", "lower tempo"]
+    },
+    "opening_odds_note": "Reliable opening odds and total-goals odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "CBS Sports public odds preview", "home": -120, "draw": 265, "away": 370}
+    },
+    "sources": [
+      {"label": "ESPN match center and team news", "url": "https://www.espn.com/soccer/story/_/id/48972712/fifa-world-cup-2026-canada-vs-bosnia-herzegovina-kickoff-how-watch-stats-team-news"},
+      {"label": "ESPN live result context", "url": "https://www.espn.com/soccer/story/_/id/49041213/canada-bosnia-herzegovina-live-world-cup-2026-latest-updates-commentary-score-result"}
+    ]
+  },
+  {
+    "source_order": 4,
+    "report_file": "04-united-states-vs-paraguay.md",
+    "teams": ["United States", "Paraguay"],
+    "lineup_status": "confirmed lineups from Lineups.com public preview",
+    "lineups": {
+      "United States": "Johnson; Richards, Ream, Robinson; Dest, Adams, Reyna, Freese; Weah, Balogun, Pulisic",
+      "Paraguay": "Gatito; Balbuena, Alderete, Gomez; Cubas, Enciso, Villasanti; Sosa, Almiron, Sanabria, Arce"
+    },
+    "lineup_notes": "Lineups.com listed confirmed XIs in abbreviated form.",
+    "injuries_suspensions": {
+      "United States": "No major pre-match injury or suspension flag captured in the public preview source used here.",
+      "Paraguay": "No major pre-match injury or suspension flag captured in the public preview source used here."
+    },
+    "tactical_tags": {
+      "United States": ["front-three speed", "aggressive wingbacks", "high press", "Pulisic chance creation"],
+      "Paraguay": ["compact midfield", "counter attacks", "Almiron outlet", "physical duels"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "Lineups.com public odds snapshot", "home": 105, "draw": 210, "away": 300},
+      "total_2_5": {"provider": "Lineups.com public odds snapshot", "over": 152, "under": -188}
+    },
+    "sources": [
+      {"label": "Lineups.com USA vs Paraguay", "url": "https://www.lineups.com/articles/united-states-paraguay-prediction-lineups-odds-6-13-26/"}
+    ]
+  },
+  {
+    "source_order": 5,
+    "report_file": "05-qatar-vs-switzerland.md",
+    "teams": ["Qatar", "Switzerland"],
+    "lineup_status": "predicted lineups from public previews",
+    "lineups": {
+      "Qatar": "Salah Zakaria; Youssef Aymen, Boualem Khoukhi, Tarek Salman; Pedro Miguel, Assim Madibo, Ahmed Fathy, Homam Ahmed; Akram Afif, Yusuf Abdurisag, Almoez Ali",
+      "Switzerland": "Yann Sommer; Kevin Mbabu, Manuel Akanji, Nico Elvedi, Ricardo Rodriguez; Remo Freuler, Granit Xhaka; Edimilson Fernandes, Xherdan Shaqiri, Ruben Vargas; Breel Embolo"
+    },
+    "lineup_notes": "Public previews differed on Qatar's front line; the stored XI normalizes the duplicate-defender issue seen in one snippet.",
+    "injuries_suspensions": {
+      "Qatar": "No key injuries reported by Covers.",
+      "Switzerland": "No key injuries reported by Covers."
+    },
+    "tactical_tags": {
+      "Qatar": ["short passing", "Afif creative hub", "mid-low block", "counter vulnerability"],
+      "Switzerland": ["4-2-3-1 or 4-3-3", "structured press", "Xhaka tempo control", "wide crossing"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "Covers public odds snapshot", "home": 1100, "draw": 525, "away": -450},
+      "total_2_5": {"provider": "Covers public odds snapshot", "over": -133, "under": 127}
+    },
+    "sources": [
+      {"label": "Covers Qatar vs Switzerland", "url": "https://www.covers.com/world-cup/qatar-vs-switzerland-prediction-picks-odds-saturday-6-13-2026"},
+      {"label": "RotoWire Qatar vs Switzerland", "url": "https://www.rotowire.com/soccer/article/qatar-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-117815"},
+      {"label": "Sports Illustrated Qatar vs Switzerland", "url": "https://www.si.com/soccer/qatar-vs-switzerland-world-cup-preview-predictions-lineups-6-13-26"}
+    ]
+  },
+  {
+    "source_order": 6,
+    "report_file": "06-brazil-vs-morocco.md",
+    "teams": ["Brazil", "Morocco"],
+    "lineup_status": "projected lineups from public previews",
+    "lineups": {
+      "Brazil": "Alisson; Danilo, Marquinhos, Gabriel Magalhaes, Alex Sandro; Casemiro, Lucas Paqueta; Raphinha, Rodrygo, Vinicius Junior; Richarlison",
+      "Morocco": "Yassine Bounou; Achraf Hakimi, Nayef Aguerd, Romain Saiss, Noussair Mazraoui; Sofyan Amrabat, Azzedine Ounahi; Hakim Ziyech, Bilal El Khannouss, Sofiane Boufal; Youssef En-Nesyri"
+    },
+    "lineup_notes": "Stored as projected XIs and should be refreshed if official team sheets differ.",
+    "injuries_suspensions": {
+      "Brazil": "No key injuries reported by Covers.",
+      "Morocco": "No key injuries reported by Covers."
+    },
+    "tactical_tags": {
+      "Brazil": ["elite wide isolation", "high chance creation", "counter press", "individual shot quality"],
+      "Morocco": ["compact 4-3-3", "Hakimi overlaps", "Amrabat ball wins", "fast counters"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "Covers public odds snapshot", "home": -144, "draw": 300, "away": 456},
+      "total_2_5": {"provider": "Covers public odds snapshot", "over": -113, "under": -113}
+    },
+    "sources": [
+      {"label": "Covers Brazil vs Morocco", "url": "https://www.covers.com/world-cup/brazil-vs-morocco-prediction-picks-odds-saturday-6-13-2026"}
+    ]
+  },
+  {
+    "source_order": 7,
+    "report_file": "07-haiti-vs-scotland.md",
+    "teams": ["Haiti", "Scotland"],
+    "lineup_status": "projected lineups from public previews",
+    "lineups": {
+      "Haiti": "Johnny Placide; Alex Christian, Ricardo Ade, Mechack Jerome, Carlens Arcus; Leverton Pierre, Bryan Alceus, Danley Jean Jacques; Derrick Etienne, Frantzdy Pierrot, Duckens Nazon",
+      "Scotland": "Angus Gunn; Anthony Ralston, Ryan Porteous, Jack Hendry, Andrew Robertson; Scott McTominay, Billy Gilmour, Ryan Christie; John McGinn, Che Adams, Ryan Fraser"
+    },
+    "lineup_notes": "Stored as projected XIs and should be refreshed if official team sheets differ.",
+    "injuries_suspensions": {
+      "Haiti": "No key injuries reported by Covers.",
+      "Scotland": "No key injuries reported by Covers."
+    },
+    "tactical_tags": {
+      "Haiti": ["direct counters", "Nazon finishing", "deep defensive phases", "set-piece exposure"],
+      "Scotland": ["wingback service", "McTominay box runs", "cross-heavy attacks", "territory control"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "Covers public odds snapshot", "home": 525, "draw": 375, "away": -170},
+      "total_2_5": {"provider": "Covers public odds snapshot", "over": -104, "under": 100}
+    },
+    "sources": [
+      {"label": "Covers Haiti vs Scotland", "url": "https://www.covers.com/world-cup/haiti-vs-scotland-prediction-picks-odds-saturday-6-13-2026"}
+    ]
+  },
+  {
+    "source_order": 8,
+    "report_file": "08-australia-vs-turkiye.md",
+    "teams": ["Australia", "Turkiye"],
+    "lineup_status": "predicted lineups from public previews",
+    "lineups": {
+      "Australia": "Mathew Ryan; Kye Rowles, Harry Souttar, Alessandro Circati; Jordy Bos, Connor Metcalfe, Jackson Irvine, Fran Karacic; Ajdin Hrustic, Mathew Leckie; Adam Taggart",
+      "Turkiye": "Ugurcan Cakir; Mert Muldur, Merih Demiral, Caglar Soyuncu, Ferdi Kadioglu; Hakan Calhanoglu, Orkun Kokcu; Arda Guler, Kerem Akturkoglu, Kenan Yildiz; Cenk Tosun"
+    },
+    "lineup_notes": "Stored as predicted XIs and should be refreshed if official team sheets differ.",
+    "injuries_suspensions": {
+      "Australia": "No key injuries reported by Covers.",
+      "Turkiye": "No key injuries reported by Covers."
+    },
+    "tactical_tags": {
+      "Australia": ["back-three buildup", "aerial threat", "direct crossing", "mid-block defending"],
+      "Turkiye": ["Calhanoglu tempo", "Guler creativity", "wide overloads", "higher shot volume"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "Covers public odds snapshot", "home": 426, "draw": 285, "away": -138},
+      "total_2_5": {"provider": "Covers public odds snapshot", "over": 108, "under": -112}
+    },
+    "sources": [
+      {"label": "Covers Turkey vs Australia", "url": "https://www.covers.com/world-cup/turkey-vs-australia-prediction-picks-odds-sunday-6-14-2026"},
+      {"label": "RotoWire Australia vs Turkey", "url": "https://www.rotowire.com/soccer/article/australia-vs-turkey-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-d-117953"},
+      {"label": "Lineups.com Australia vs Turkiye", "url": "https://www.lineups.com/betting/australia-vs-turkiye-world-cup-match-preview-picks-odds-for-saturday-june-13-2026/"}
+    ]
+  },
+  {
+    "source_order": 9,
+    "report_file": "09-germany-vs-curacao.md",
+    "teams": ["Germany", "Curacao"],
+    "lineup_status": "projected lineups from public previews",
+    "lineups": {
+      "Germany": "Neuer; Kimmich, Tah, Schlotterbeck, Brown; Nmecha, Pavlovic; Sane, Musiala, Wirtz; Havertz",
+      "Curacao": "Room; Gaari, Obispo, Bazoer; Floranus, Comenencia, L. Bacuna, J. Bacuna, Fonville; Locadia, Chong"
+    },
+    "lineup_notes": "Covers published projected XIs; refresh from official team sheets when available.",
+    "injuries_suspensions": {
+      "Germany": "Covers listed no match-table injuries; its preview also noted Lennart Karl's build-up injury as a creativity-depth loss.",
+      "Curacao": "No key injuries reported by Covers."
+    },
+    "tactical_tags": {
+      "Germany": ["4-3-2-1", "territory dominance", "Musiala-Wirtz central creation", "low-block breaking test"],
+      "Curacao": ["deep block", "counterattacking pace", "compact defensive shell", "Chong transition outlet"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "Kalshi via Covers public odds snapshot", "home": -1567, "draw": 1900, "away": 3233},
+      "total_2_5": {"provider": "Kalshi via Covers public odds snapshot", "line": "2.5", "over": 104, "under": -108},
+      "asian_handicap": {"provider": "Sportsgambler/Covers public previews", "home_label": "Germany -3.5", "home": -100, "away_label": "Curacao +3.5", "away": -108}
+    },
+    "sources": [
+      {"label": "Covers Germany vs Curacao", "url": "https://www.covers.com/world-cup/germany-vs-curacao-prediction-picks-odds-sunday-6-14-2026"},
+      {"label": "Sportsgambler Germany vs Curacao", "url": "https://www.sportsgambler.com/betting-tips/football/germany-vs-curacao-prediction-lineups-odds-2026-06-14/"},
+      {"label": "RotoWire Germany vs Curacao", "url": "https://www.rotowire.com/soccer/article/germany-vs-curacao-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-e-117956"}
+    ]
+  },
+  {
+    "source_order": 10,
+    "report_file": "10-netherlands-vs-japan.md",
+    "teams": ["Netherlands", "Japan"],
+    "lineup_status": "projected lineups from public previews",
+    "lineups": {
+      "Netherlands": "Verbruggen; Dumfries, Hecke, Van Dijk, Van de Ven; De Jong, Gravenberch; Malen, Reijnders, Gakpo; Weghorst",
+      "Japan": "Suzuki; H. Ito, Watanabe, Taniguchi; Doan, Kamada, Tanaka, Nagatomo; Kubo, J. Ito; Ueda"
+    },
+    "lineup_notes": "Covers published projected XIs; refresh from official team sheets when available.",
+    "injuries_suspensions": {
+      "Netherlands": "Memphis Depay listed as questionable; Bart Verbruggen listed as probable by Covers.",
+      "Japan": "Wataru Endo listed out by Covers."
+    },
+    "tactical_tags": {
+      "Netherlands": ["4-2-3-1", "set-piece height edge", "aerial pressure", "controlled possession"],
+      "Japan": ["3-4-2-1", "compact block", "quick technical combinations", "reduced midfield control without Endo"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "Kalshi via Covers public odds snapshot", "home": -103, "draw": 270, "away": 285},
+      "total_2_5": {"provider": "Kalshi via Covers public odds snapshot", "line": "2.5", "over": 100, "under": -105},
+      "asian_handicap": {"provider": "Sportsgambler public odds snapshot", "odds_format": "decimal", "home_label": "Netherlands -0.5", "home": 1.96, "away_label": "Japan +0.5", "away": 1.84}
+    },
+    "sources": [
+      {"label": "Covers Netherlands vs Japan", "url": "https://www.covers.com/world-cup/netherlands-vs-japan-prediction-picks-odds-sunday-6-14-2026"},
+      {"label": "Sportsgambler Netherlands vs Japan", "url": "https://www.sportsgambler.com/betting-tips/football/netherlands-vs-japan-prediction-lineups-odds-2026-06-14/"},
+      {"label": "Pinnacle Netherlands vs Japan odds", "url": "https://www.pinnacle.com/en/soccer/fifa-world-cup/netherlands-vs-japan/1620849619/"}
+    ]
+  },
+  {
+    "source_order": 11,
+    "report_file": "11-ivory-coast-vs-ecuador.md",
+    "teams": ["Ivory Coast", "Ecuador"],
+    "lineup_status": "projected lineups from public previews",
+    "lineups": {
+      "Ivory Coast": "Y. Fofana; Doue, Singo, Kossounou, Konan; Sangare, Kessie, S. Fofana; Diallo, Wahi, Diomande",
+      "Ecuador": "Galindez; Hincapie, Pacho, Ordonez; Franco, M. Caicedo, Vite, Estupinan; Plata, Yeboah; Valencia"
+    },
+    "lineup_notes": "Covers published projected XIs; refresh from official team sheets when available.",
+    "injuries_suspensions": {
+      "Ivory Coast": "Evan Ndicka listed doubtful by Covers.",
+      "Ecuador": "No key injuries reported by Covers."
+    },
+    "tactical_tags": {
+      "Ivory Coast": ["4-3-3", "wing threat", "clean-sheet qualifying profile", "center-forward question"],
+      "Ecuador": ["3-4-2-1", "elite defensive record", "low-event game state", "Caicedo midfield control"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update. A complete two-sided Asian handicap snapshot was not captured.",
+    "latest_odds": {
+      "moneyline": {"provider": "Kalshi via Covers public odds snapshot", "home": 144, "draw": 194, "away": 257},
+      "total_2_5": {"provider": "Kalshi via Covers public odds snapshot", "line": "1.5", "over": -150, "under": 144}
+    },
+    "sources": [
+      {"label": "Covers Ivory Coast vs Ecuador", "url": "https://www.covers.com/world-cup/ivory-coast-vs-ecuador-prediction-picks-odds-sunday-6-14-2026"},
+      {"label": "Sportsgambler Ivory Coast vs Ecuador", "url": "https://www.sportsgambler.com/betting-tips/football/ivory-coast-vs-ecuador-prediction-lineups-odds-2026-06-14/"},
+      {"label": "Oddschecker Ivory Coast vs Ecuador", "url": "https://www.oddschecker.com/us/soccer/world-cup/ivory-coast-v-ecuador/moneyline"}
+    ]
+  },
+  {
+    "source_order": 12,
+    "report_file": "12-sweden-vs-tunisia.md",
+    "teams": ["Sweden", "Tunisia"],
+    "lineup_status": "projected lineups from public previews",
+    "lineups": {
+      "Sweden": "Nordfeldt; Johansson, Lindelof, Starfelt, Gudmundsson; Elanga, Ayari, Karlstrom, Sema; Isak, Gyokeres",
+      "Tunisia": "Dahmen; Arous, Talbi, Rekik, Valery; Skhiri, Belhadj Mahmoud; Achouri, Khedira, Ben Slimane; Mastouri"
+    },
+    "lineup_notes": "Covers published projected XIs; refresh from official team sheets when available.",
+    "injuries_suspensions": {
+      "Sweden": "Emil Holm listed out by Covers.",
+      "Tunisia": "No key injuries reported by Covers."
+    },
+    "tactical_tags": {
+      "Sweden": ["4-4-2", "Isak-Gyokeres strike pair", "direct final-third play", "defensive clean-sheet concern"],
+      "Tunisia": ["4-2-3-1", "double-pivot protection", "counterattacking underdog", "center-back stress versus two strikers"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update.",
+    "latest_odds": {
+      "moneyline": {"provider": "Kalshi via Covers public odds snapshot", "home": -104, "draw": 270, "away": 355},
+      "total_2_5": {"provider": "Kalshi via Covers public odds snapshot", "line": "2.5", "over": 138, "under": -144},
+      "asian_handicap": {"provider": "Sportsgambler public odds snapshot", "odds_format": "decimal", "home_label": "Sweden -0.5", "home": 1.90, "away_label": "Tunisia +0.5", "away": 1.90}
+    },
+    "sources": [
+      {"label": "Covers Sweden vs Tunisia", "url": "https://www.covers.com/world-cup/sweden-vs-tunisia-prediction-picks-odds-sunday-6-14-2026"},
+      {"label": "Sportsgambler Sweden vs Tunisia", "url": "https://www.sportsgambler.com/betting-tips/football/sweden-vs-tunisia-prediction-lineups-odds-2026-06-15/"},
+      {"label": "BetUS Sweden vs Tunisia", "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/sweden-vs-tunisia/"}
+    ]
+  },
+  {
+    "source_order": 13,
+    "report_file": "13-spain-vs-cape-verde.md",
+    "teams": ["Spain", "Cape Verde"],
+    "lineup_status": "projected lineups from public previews",
+    "lineups": {
+      "Spain": "Unai Simon; Pedro Porro, Robin Le Normand, Dani Vivian, Alex Grimaldo; Martin Zubimendi, Fabian Ruiz, Pedri; Nico Williams, Mikel Oyarzabal, Lamine Yamal",
+      "Cape Verde": "Vozinha; Joao Correia, Roberto Lopes, Logan Costa, Dylan Tavares; Kevin Pina, Jamiro Monteiro, Kenny Rocha Santos; Jovane Cabral, Dailon Livramento, Ryan Mendes"
+    },
+    "lineup_notes": "Barca Blaugranes published a projected Spain XI and Cape Verde XI; refresh from official FIFA team sheets when available.",
+    "injuries_suspensions": {
+      "Spain": "Ferran Torres and Alvaro Morata were reported out, while Rodri, Gavi and Dani Olmo were reported injured in the public preview used here.",
+      "Cape Verde": "No major pre-match injury or suspension flag captured in the public preview sources used here."
+    },
+    "tactical_tags": {
+      "Spain": ["4-3-3", "possession control", "Yamal-Williams wide isolation", "high territory"],
+      "Cape Verde": ["compact 4-3-3", "transition counters", "Ryan Mendes outlet", "set-piece survival"]
+    },
+    "opening_odds_note": "Reliable opening odds and a complete latest 1X2/total snapshot were not available from the public pages captured in this update.",
+    "latest_odds": {},
+    "sources": [
+      {"label": "Barca Blaugranes Spain vs Cape Verde preview", "url": "https://www.barcablaugranes.com/world-cup-2026/123471/spain-cape-verde-world-cup-2026-team-news-match-preview-lineups-prediction"},
+      {"label": "The Sun Spain vs Cape Verde betting preview", "url": "https://www.thesun.co.uk/betting/35290260/spain-cape-verde-prediction-free-betting-tips-odds-world-cup-2026/"},
+      {"label": "Sports Mole Spain vs Cape Verde preview", "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/preview/preview-spain-vs-cape-verde-prediction-team-news-lineups_574334.html"}
+    ]
+  },
+  {
+    "source_order": 14,
+    "report_file": "14-belgium-vs-egypt.md",
+    "teams": ["Belgium", "Egypt"],
+    "lineup_status": "projected lineups from public previews and squad context",
+    "lineups": {
+      "Belgium": "Thibaut Courtois; Timothy Castagne, Wout Faes, Arthur Theate, Maxim De Cuyper; Youri Tielemans, Amadou Onana, Kevin De Bruyne; Jeremy Doku, Romelu Lukaku, Charles De Ketelaere",
+      "Egypt": "Mohamed El Shenawy; Mohamed Hany, Ahmed Hegazy, Mohamed Abdelmonem, Mohamed Hamdi; Hamdi Fathi, Marwan Attia; Trezeguet, Emam Ashour, Mohamed Salah; Mostafa Mohamed"
+    },
+    "lineup_notes": "No official XI was captured in the public pages used here; stored XIs are conservative projected lineups based on preview and squad-role context.",
+    "injuries_suspensions": {
+      "Belgium": "No major pre-match injury or suspension flag captured in the public preview sources used here.",
+      "Egypt": "No major pre-match injury or suspension flag captured in the public preview sources used here."
+    },
+    "tactical_tags": {
+      "Belgium": ["4-3-3", "De Bruyne chance creation", "Doku isolation dribbles", "front-foot favorite"],
+      "Egypt": ["compact mid-block", "Salah transition outlet", "domestic-club core", "set-piece danger"]
+    },
+    "opening_odds_note": "Reliable opening odds and a complete latest 1X2/total snapshot were not available from the public pages captured in this update.",
+    "latest_odds": {},
+    "sources": [
+      {"label": "CBS Sports Belgium vs Egypt odds preview", "url": "https://www.cbssports.com/soccer/news/belgium-egypt-odds-prediction-time-2026-world-cup-picks-best-bets-for-june-15/"},
+      {"label": "Sports Mole Belgium vs Egypt preview", "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/preview/preview-belgium-vs-egypt-prediction-team-news-lineups_574335.html"},
+      {"label": "The Sun Belgium vs Egypt betting preview", "url": "https://www.thesun.co.uk/betting/35290264/belgium-egypt-prediction-free-betting-tips-odds-world-cup-2026/"}
+    ]
+  },
+  {
+    "source_order": 15,
+    "report_file": "15-saudi-arabia-vs-uruguay.md",
+    "teams": ["Saudi Arabia", "Uruguay"],
+    "lineup_status": "projected lineups from public previews and squad context",
+    "lineups": {
+      "Saudi Arabia": "Mohammed Al Owais; Saud Abdulhamid, Ali Al Bulayhi, Hassan Tambakti, Yasser Al Shahrani; Mohamed Kanno, Abdulelah Al Malki, Salem Al Dawsari; Abdulrahman Ghareeb, Firas Al Buraikan, Saleh Al Shehri",
+      "Uruguay": "Sergio Rochet; Nahitan Nandez, Ronald Araujo, Jose Maria Gimenez, Mathias Olivera; Manuel Ugarte, Federico Valverde, Rodrigo Bentancur; Facundo Pellistri, Darwin Nunez, Maximiliano Araujo"
+    },
+    "lineup_notes": "Stored XIs are projected until official team sheets are available; Uruguay market previews emphasized Darwin Nunez and a strong defensive baseline.",
+    "injuries_suspensions": {
+      "Saudi Arabia": "No major pre-match injury or suspension flag captured in the public preview sources used here.",
+      "Uruguay": "No major pre-match injury or suspension flag captured in the public preview sources used here."
+    },
+    "tactical_tags": {
+      "Saudi Arabia": ["mid-low block", "Al Dawsari ball carrying", "quick wide breaks", "defensive endurance test"],
+      "Uruguay": ["Bielsa press", "Valverde-Ugarte ball winning", "Nunez depth runs", "clean-sheet angle"]
+    },
+    "opening_odds_note": "Reliable opening odds were not available from the public pages captured in this update. Public betting previews listed Uruguay as a clear favorite and under 2.5 near even money, but a complete 1X2 market snapshot was not captured.",
+    "latest_odds": {},
+    "sources": [
+      {"label": "talkSPORT Saudi Arabia vs Uruguay betting tips", "url": "https://talksport.com/betting/3354447/saudi-arabia-vs-uruguay-predictions-odds-betting-tips/"},
+      {"label": "The Sun Saudi Arabia vs Uruguay betting preview", "url": "https://www.thesun.co.uk/betting/35290267/saudi-arabia-uruguay-prediction-free-betting-tips-odds-world-cup-2026/"},
+      {"label": "Sports Mole Saudi Arabia vs Uruguay preview", "url": "https://www.sportsmole.co.uk/football/saudi-arabia/world-cup-2026/preview/preview-saudi-arabia-vs-uruguay-prediction-team-news-lineups_574336.html"}
+    ]
+  },
+  {
+    "source_order": 16,
+    "report_file": "16-iran-vs-new-zealand.md",
+    "teams": ["Iran", "New Zealand"],
+    "lineup_status": "projected lineups from public previews and squad context",
+    "lineups": {
+      "Iran": "Alireza Beiranvand; Sadegh Moharrami, Shoja Khalilzadeh, Majid Hosseini, Milad Mohammadi; Saeid Ezatolahi, Saman Ghoddos; Alireza Jahanbakhsh, Mehdi Ghayedi, Ali Gholizadeh; Mehdi Taremi",
+      "New Zealand": "Max Crocombe; Tim Payne, Michael Boxall, Nando Pijnaker, Liberato Cacace; Marko Stamenic, Sarpreet Singh, Matthew Garbett; Elijah Just, Chris Wood, Ben Waine"
+    },
+    "lineup_notes": "No official XI was captured in the public pages used here; stored XIs are conservative projections centered on established starters and role continuity.",
+    "injuries_suspensions": {
+      "Iran": "No major pre-match injury or suspension flag captured in the public preview sources used here.",
+      "New Zealand": "No major pre-match injury or suspension flag captured in the public preview sources used here."
+    },
+    "tactical_tags": {
+      "Iran": ["direct forward play", "Taremi focal point", "experienced defensive block", "set-piece route"],
+      "New Zealand": ["Wood target play", "wide service", "physical duels", "transition underdog"]
+    },
+    "opening_odds_note": "Reliable opening odds and a complete latest 1X2/total snapshot were not available from the public pages captured in this update.",
+    "latest_odds": {},
+    "sources": [
+      {"label": "CBS Sports Iran vs New Zealand odds preview", "url": "https://www.cbssports.com/soccer/news/iran-new-zealand-odds-prediction-time-2026-world-cup-picks-best-bets-for-june-15/"},
+      {"label": "Sports Mole Iran vs New Zealand preview", "url": "https://www.sportsmole.co.uk/football/iran/world-cup-2026/preview/preview-iran-vs-new-zealand-prediction-team-news-lineups_574337.html"},
+      {"label": "The Sun Iran vs New Zealand betting preview", "url": "https://www.thesun.co.uk/betting/35290270/iran-new-zealand-prediction-free-betting-tips-odds-world-cup-2026/"}
+    ]
+  },
+  {
+    "source_order": 17,
+    "report_file": "17-france-vs-senegal.md",
+    "teams": ["France", "Senegal"],
+    "lineup_status": "projected lineups from public previews, market screen, and squad context",
+    "lineups": {
+      "France": "Mike Maignan; Jules Kounde, Ibrahima Konate, William Saliba, Theo Hernandez; Aurelien Tchouameni, Eduardo Camavinga, Antoine Griezmann; Ousmane Dembele, Kylian Mbappe, Bradley Barcola",
+      "Senegal": "Edouard Mendy; Kalidou Koulibaly, Moussa Niakhate, Abdou Diallo; Krépin Diatta, Pape Matar Sarr, Pape Gueye, Ismail Jakobs; Ismaila Sarr, Nicolas Jackson, Iliman Ndiaye"
+    },
+    "lineup_notes": "Stored XIs are projections until official lineups are available. The market screen captured France -1, total 2.5, and BTTS yes/no pricing.",
+    "injuries_suspensions": {
+      "France": "No major pre-match injury or suspension flag captured in the public preview sources used here.",
+      "Senegal": "No major pre-match injury or suspension flag captured in the public preview sources used here."
+    },
+    "tactical_tags": {
+      "France": ["elite transition speed", "Mbappe left-channel threat", "front-three rotations", "set-piece height"],
+      "Senegal": ["physical midfield", "wide counterattacks", "Jackson depth runs", "high athletic floor"]
+    },
+    "opening_odds_note": "Latest market screen captured France as the full-time favorite but with a model warning on the -1 handicap.",
+    "latest_odds": {
+      "moneyline": {"provider": "user market screen", "home": 1.46, "draw": 4.45, "away": 6.90, "odds_format": "decimal"},
+      "total_2_5": {"provider": "user market screen", "line": "2.5", "over": 1.88, "under": 1.99, "odds_format": "decimal"},
+      "asian_handicap": {"provider": "user market screen", "odds_format": "decimal", "home_label": "France -1", "home": 1.82, "away_label": "Senegal +1", "away": 2.06}
+    },
+    "sources": [
+      {"label": "User-provided market screen, 2026-06-16", "url": "local://codex/user-provided-market-screen/france-senegal-2026-06-16"},
+      {"label": "Guardian tournament live blog", "url": "https://www.theguardian.com/football/live/2026/jun/16/world-cup-2026-news-france-enter-fray-iran-feel-oppressed-var-official-cleared-over-gesture-live"},
+      {"label": "Project model snapshot", "url": "local://data/processed/match_simulation_summary.csv"}
+    ]
+  },
+  {
+    "source_order": 18,
+    "report_file": "18-iraq-vs-norway.md",
+    "teams": ["Iraq", "Norway"],
+    "lineup_status": "projected lineups from squad context and model preview",
+    "lineups": {
+      "Iraq": "Jalal Hassan; Hussein Ali, Rebin Sulaka, Zaid Tahseen, Merchas Doski; Amir Al-Ammari, Osama Rashid, Zidane Iqbal; Ali Jasim, Aymen Hussein, Youssef Amyn",
+      "Norway": "Orjan Nyland; Julian Ryerson, Leo Ostigard, Kristoffer Ajer, David Moller Wolfe; Sander Berge, Martin Odegaard, Patrick Berg; Antonio Nusa, Erling Haaland, Alexander Sorloth"
+    },
+    "lineup_notes": "No official XI was captured in the public pages used here; stored XIs are conservative projections focused on established role continuity.",
+    "injuries_suspensions": {
+      "Iraq": "No major pre-match injury or suspension flag captured in the public preview sources used here.",
+      "Norway": "No major pre-match injury or suspension flag captured in the public preview sources used here."
+    },
+    "tactical_tags": {
+      "Iraq": ["compact block", "Aymen Hussein target play", "set-piece route", "transition defense stress"],
+      "Norway": ["Haaland focal point", "Odegaard chance creation", "direct penalty-box volume", "wide service"]
+    },
+    "opening_odds_note": "Reliable opening odds and a complete latest 1X2/total snapshot were not available from the public pages captured in this update.",
+    "latest_odds": {},
+    "sources": [
+      {"label": "Guardian tournament live blog", "url": "https://www.theguardian.com/football/live/2026/jun/16/world-cup-2026-news-france-enter-fray-iran-feel-oppressed-var-official-cleared-over-gesture-live"},
+      {"label": "Project model snapshot", "url": "local://data/processed/match_simulation_summary.csv"},
+      {"label": "Project team ratings snapshot", "url": "local://data/processed/team_power_ratings.csv"}
+    ]
+  },
+  {
+    "source_order": 19,
+    "report_file": "19-argentina-vs-algeria.md",
+    "teams": ["Argentina", "Algeria"],
+    "lineup_status": "projected lineups from squad context and model preview",
+    "lineups": {
+      "Argentina": "Emiliano Martinez; Nahuel Molina, Cristian Romero, Nicolas Otamendi, Nicolas Tagliafico; Rodrigo De Paul, Enzo Fernandez, Alexis Mac Allister; Lionel Messi, Lautaro Martinez, Julian Alvarez",
+      "Algeria": "Anthony Mandrea; Youcef Atal, Aissa Mandi, Ramy Bensebaini, Rayan Ait-Nouri; Ismael Bennacer, Hicham Boudaoui, Houssem Aouar; Riyad Mahrez, Amine Gouiri, Said Benrahma"
+    },
+    "lineup_notes": "No official XI was captured in the public pages used here; stored XIs are conservative projections until verified team sheets are available.",
+    "injuries_suspensions": {
+      "Argentina": "No major pre-match injury or suspension flag captured in the public preview sources used here.",
+      "Algeria": "No major pre-match injury or suspension flag captured in the public preview sources used here."
+    },
+    "tactical_tags": {
+      "Argentina": ["controlled possession", "Messi central creation", "late-box runners", "press-resistant midfield"],
+      "Algeria": ["Mahrez right-side creation", "counterattacking threat", "technical midfield", "draw protection profile"]
+    },
+    "opening_odds_note": "Reliable opening odds and a complete latest 1X2/total snapshot were not available from the public pages captured in this update.",
+    "latest_odds": {},
+    "sources": [
+      {"label": "Guardian tournament live blog", "url": "https://www.theguardian.com/football/live/2026/jun/16/world-cup-2026-news-france-enter-fray-iran-feel-oppressed-var-official-cleared-over-gesture-live"},
+      {"label": "Project model snapshot", "url": "local://data/processed/match_simulation_summary.csv"},
+      {"label": "Project team ratings snapshot", "url": "local://data/processed/team_power_ratings.csv"}
+    ]
+  },
+  {
+    "source_order": 20,
+    "report_file": "20-austria-vs-jordan.md",
+    "teams": ["Austria", "Jordan"],
+    "lineup_status": "projected lineups from squad context and model preview",
+    "lineups": {
+      "Austria": "Patrick Pentz; Stefan Posch, Kevin Danso, Philipp Lienhart, Phillipp Mwene; Nicolas Seiwald, Konrad Laimer, Christoph Baumgartner; Romano Schmid, Marko Arnautovic, Marcel Sabitzer",
+      "Jordan": "Yazeed Abulaila; Salem Al-Ajalin, Yazan Al-Arab, Abdallah Nasib, Ehsan Haddad; Nizar Al-Rashdan, Noor Al-Rawabdeh; Ali Olwan, Musa Al-Taamari, Mahmoud Al-Mardi; Yazan Al-Naimat"
+    },
+    "lineup_notes": "No official XI was captured in the public pages used here; stored XIs are conservative projections centered on established starters.",
+    "injuries_suspensions": {
+      "Austria": "No major pre-match injury or suspension flag captured in the public preview sources used here.",
+      "Jordan": "No major pre-match injury or suspension flag captured in the public preview sources used here."
+    },
+    "tactical_tags": {
+      "Austria": ["high press", "Laimer-Seiwald ball wins", "Sabitzer final-third delivery", "territory favorite"],
+      "Jordan": ["low block", "Al-Taamari transition outlet", "direct counters", "set-piece dependence"]
+    },
+    "opening_odds_note": "Reliable opening odds and a complete latest 1X2/total snapshot were not available from the public pages captured in this update.",
+    "latest_odds": {},
+    "sources": [
+      {"label": "Guardian tournament live blog", "url": "https://www.theguardian.com/football/live/2026/jun/16/world-cup-2026-news-france-enter-fray-iran-feel-oppressed-var-official-cleared-over-gesture-live"},
+      {"label": "Project model snapshot", "url": "local://data/processed/match_simulation_summary.csv"},
+      {"label": "Project team ratings snapshot", "url": "local://data/processed/team_power_ratings.csv"}
+    ]
+  }
+]

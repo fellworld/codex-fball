@@ -1,14 +1,14 @@
 source_order,group,date_china,time_china,team_a,team_b,team_a_canonical,team_b_canonical,team_a_rating,team_b_rating,rating_diff_a_minus_b,initial_favorite,initial_total_goals_lean,team_a_style,team_b_style,team_a_goal_expectation_bias,team_b_goal_expectation_bias,notes
 1,A,2026-06-12,03:00,Mexico,South Africa,Mexico,South Africa,55.35,59.62,-4.27,South Africa,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 2,A,2026-06-12,10:00,South Korea,Czechia,Korea Republic,Czechia,55.42,66.50,-11.08,Czechia,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-3,B,2026-06-13,03:00,Canada,Bosnia and Herzegovina,Canada,Bosnia And Herzegovina,59.73,57.27,2.46,Canada,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+3,B,2026-06-13,03:00,Canada,Bosnia and Herzegovina,Canada,Bosnia And Herzegovina,59.88,56.08,3.80,Canada,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 4,D,2026-06-13,09:00,United States,Paraguay,USA,Paraguay,64.23,52.12,12.11,United States,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 5,B,2026-06-14,03:00,Qatar,Switzerland,Qatar,Switzerland,62.73,76.77,-14.04,Switzerland,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-6,C,2026-06-14,06:00,Brazil,Morocco,Brazil,Morocco,67.00,65.69,1.31,even,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+6,C,2026-06-14,06:00,Brazil,Morocco,Brazil,Morocco,67.00,63.73,3.27,Brazil,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 7,C,2026-06-14,09:00,Haiti,Scotland,Haiti,Scotland,52.92,67.73,-14.81,Scotland,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 8,D,2026-06-14,12:00,Australia,Turkiye,Australia,Türkiye,57.65,65.35,-7.70,Turkiye,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 9,E,2026-06-15,01:00,Germany,Curacao,Germany,Curaçao,90.42,48.50,41.92,Germany,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-10,F,2026-06-15,04:00,Netherlands,Japan,Netherlands,Japan,76.23,62.27,13.96,Netherlands,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+10,F,2026-06-15,04:00,Netherlands,Japan,Netherlands,Japan,76.85,62.27,14.58,Netherlands,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 11,E,2026-06-15,07:00,Ivory Coast,Ecuador,Côte D'Ivoire,Ecuador,58.62,53.73,4.89,Ivory Coast,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 12,F,2026-06-15,10:00,Sweden,Tunisia,Sweden,Tunisia,65.81,56.88,8.93,Sweden,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 13,H,2026-06-16,00:00,Spain,Cape Verde,Spain,Cabo Verde,91.15,42.73,48.42,Spain,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
@@ -17,21 +17,21 @@ source_order,group,date_china,time_china,team_a,team_b,team_a_canonical,team_b_c
 16,G,2026-06-16,09:00,Iran,New Zealand,IR Iran,New Zealand,55.08,57.42,-2.34,New Zealand,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 17,I,2026-06-17,03:00,France,Senegal,France,Senegal,82.15,71.69,10.46,France,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 18,I,2026-06-17,06:00,Iraq,Norway,Iraq,Norway,50.69,71.73,-21.04,Norway,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-19,J,2026-06-17,09:00,Argentina,Algeria,Argentina,Algeria,74.62,61.19,13.43,Argentina,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-20,J,2026-06-17,12:00,Austria,Jordan,Austria,Jordan,70.23,53.19,17.04,Austria,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+19,J,2026-06-17,09:00,Argentina,Algeria,Argentina,Algeria,74.00,61.19,12.81,Argentina,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+20,J,2026-06-17,12:00,Austria,Jordan,Austria,Jordan,69.62,54.27,15.35,Austria,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 21,K,2026-06-18,01:00,Portugal,DR Congo,Portugal,Congo DR,72.42,60.27,12.15,Portugal,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 22,L,2026-06-18,04:00,England,Croatia,England,Croatia,89.19,68.38,20.81,England,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 23,L,2026-06-18,07:00,Ghana,Panama,Ghana,Panama,66.42,44.73,21.69,Ghana,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 24,K,2026-06-18,10:00,Uzbekistan,Colombia,Uzbekistan,Colombia,54.27,55.19,-0.92,even,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 25,A,2026-06-19,00:00,Czechia,South Africa,Czechia,South Africa,66.50,59.62,6.88,Czechia,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-26,B,2026-06-19,03:00,Switzerland,Bosnia and Herzegovina,Switzerland,Bosnia And Herzegovina,76.77,57.27,19.50,Switzerland,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-27,B,2026-06-19,06:00,Canada,Qatar,Canada,Qatar,59.73,62.73,-3.00,Qatar,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+26,B,2026-06-19,03:00,Switzerland,Bosnia and Herzegovina,Switzerland,Bosnia And Herzegovina,76.77,56.08,20.69,Switzerland,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+27,B,2026-06-19,06:00,Canada,Qatar,Canada,Qatar,59.88,62.73,-2.85,Qatar,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 28,A,2026-06-19,09:00,Mexico,South Korea,Mexico,Korea Republic,55.35,55.42,-0.07,even,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 29,D,2026-06-20,03:00,United States,Australia,USA,Australia,64.23,57.65,6.58,United States,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-30,C,2026-06-20,06:00,Scotland,Morocco,Scotland,Morocco,67.73,65.69,2.04,Scotland,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+30,C,2026-06-20,06:00,Scotland,Morocco,Scotland,Morocco,67.73,63.73,4.00,Scotland,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 31,C,2026-06-20,08:30,Brazil,Haiti,Brazil,Haiti,67.00,52.92,14.08,Brazil,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 32,D,2026-06-20,11:00,Turkiye,Paraguay,Türkiye,Paraguay,65.35,52.12,13.23,Turkiye,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-33,F,2026-06-21,01:00,Netherlands,Sweden,Netherlands,Sweden,76.23,65.81,10.42,Netherlands,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+33,F,2026-06-21,01:00,Netherlands,Sweden,Netherlands,Sweden,76.85,65.81,11.04,Netherlands,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 34,E,2026-06-21,04:00,Germany,Ivory Coast,Germany,Côte D'Ivoire,90.42,58.62,31.80,Germany,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 35,E,2026-06-21,08:00,Ecuador,Curacao,Ecuador,Curaçao,53.73,48.50,5.23,Ecuador,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 36,F,2026-06-21,12:00,Tunisia,Japan,Tunisia,Japan,56.88,62.27,-5.39,Japan,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
@@ -39,24 +39,24 @@ source_order,group,date_china,time_china,team_a,team_b,team_a_canonical,team_b_c
 38,G,2026-06-22,03:00,Belgium,Iran,Belgium,IR Iran,74.77,55.08,19.69,Belgium,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 39,H,2026-06-22,06:00,Uruguay,Cape Verde,Uruguay,Cabo Verde,55.23,42.73,12.50,Uruguay,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 40,G,2026-06-22,09:00,New Zealand,Egypt,New Zealand,Egypt,57.42,61.65,-4.23,Egypt,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-41,J,2026-06-23,01:00,Argentina,Austria,Argentina,Austria,74.62,70.23,4.39,Argentina,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+41,J,2026-06-23,01:00,Argentina,Austria,Argentina,Austria,74.00,69.62,4.38,Argentina,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 42,I,2026-06-23,05:00,France,Iraq,France,Iraq,82.15,50.69,31.46,France,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 43,I,2026-06-23,08:00,Norway,Senegal,Norway,Senegal,71.73,71.69,0.04,even,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-44,J,2026-06-23,11:00,Jordan,Algeria,Jordan,Algeria,53.19,61.19,-8.00,Algeria,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+44,J,2026-06-23,11:00,Jordan,Algeria,Jordan,Algeria,54.27,61.19,-6.92,Algeria,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 45,K,2026-06-24,01:00,Portugal,Uzbekistan,Portugal,Uzbekistan,72.42,54.27,18.15,Portugal,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 46,L,2026-06-24,04:00,England,Ghana,England,Ghana,89.19,66.42,22.77,England,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 47,L,2026-06-24,07:00,Panama,Croatia,Panama,Croatia,44.73,68.38,-23.65,Croatia,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 48,K,2026-06-24,10:00,Colombia,DR Congo,Colombia,Congo DR,55.19,60.27,-5.08,DR Congo,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-49,B,2026-06-25,03:00,Switzerland,Canada,Switzerland,Canada,76.77,59.73,17.04,Switzerland,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-50,B,2026-06-25,03:00,Bosnia and Herzegovina,Qatar,Bosnia And Herzegovina,Qatar,57.27,62.73,-5.46,Qatar,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-51,C,2026-06-25,06:00,Morocco,Haiti,Morocco,Haiti,65.69,52.92,12.77,Morocco,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+49,B,2026-06-25,03:00,Switzerland,Canada,Switzerland,Canada,76.77,59.88,16.89,Switzerland,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+50,B,2026-06-25,03:00,Bosnia and Herzegovina,Qatar,Bosnia And Herzegovina,Qatar,56.08,62.73,-6.65,Qatar,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+51,C,2026-06-25,06:00,Morocco,Haiti,Morocco,Haiti,63.73,52.92,10.81,Morocco,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 52,C,2026-06-25,06:00,Scotland,Brazil,Scotland,Brazil,67.73,67.00,0.73,even,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 53,A,2026-06-25,09:00,South Africa,South Korea,South Africa,Korea Republic,59.62,55.42,4.20,South Africa,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 54,A,2026-06-25,09:00,Czechia,Mexico,Czechia,Mexico,66.50,55.35,11.15,Czechia,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 55,E,2026-06-26,04:00,Curacao,Ivory Coast,Curaçao,Côte D'Ivoire,48.50,58.62,-10.12,Ivory Coast,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 56,E,2026-06-26,04:00,Ecuador,Germany,Ecuador,Germany,53.73,90.42,-36.69,Germany,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 57,F,2026-06-26,07:00,Japan,Sweden,Japan,Sweden,62.27,65.81,-3.54,Sweden,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-58,F,2026-06-26,07:00,Tunisia,Netherlands,Tunisia,Netherlands,56.88,76.23,-19.35,Netherlands,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+58,F,2026-06-26,07:00,Tunisia,Netherlands,Tunisia,Netherlands,56.88,76.85,-19.97,Netherlands,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 59,D,2026-06-26,10:00,Paraguay,Australia,Paraguay,Australia,52.12,57.65,-5.53,Australia,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 60,D,2026-06-26,10:00,Turkiye,United States,Türkiye,USA,65.35,64.23,1.12,even,draw_or_under_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 61,I,2026-06-27,03:00,Norway,France,Norway,France,71.73,82.15,-10.42,France,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
@@ -69,5 +69,5 @@ source_order,group,date_china,time_china,team_a,team_b,team_a_canonical,team_b_c
 68,L,2026-06-28,05:00,Panama,England,Panama,England,44.73,89.19,-44.46,England,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 69,K,2026-06-28,07:30,Colombia,Portugal,Colombia,Portugal,55.19,72.42,-17.23,Portugal,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
 70,K,2026-06-28,07:30,DR Congo,Uzbekistan,Congo DR,Uzbekistan,60.27,54.27,6.00,DR Congo,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-71,J,2026-06-28,10:00,Algeria,Austria,Algeria,Austria,61.19,70.23,-9.04,Austria,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
-72,J,2026-06-28,10:00,Jordan,Argentina,Jordan,Argentina,53.19,74.62,-21.43,Argentina,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+71,J,2026-06-28,10:00,Algeria,Austria,Algeria,Austria,61.19,69.62,-8.43,Austria,neutral,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.
+72,J,2026-06-28,10:00,Jordan,Argentina,Jordan,Argentina,54.27,74.00,-19.73,Argentina,over_watch,,,,,Initial model input; update after Elo/FIFA/odds/tactical data are complete.

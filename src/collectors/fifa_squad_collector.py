@@ -23,7 +23,7 @@ DEFAULT_PDF_URL = "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-Englis
 DATE_RE = re.compile(r"\b\d{2}/\d{2}/\d{4}\b")
 TEAM_RE = re.compile(r"(?:SQUAD LIST)?\s*(.+?)\s*\(([A-Z]{3})\)")
 PLAYER_RE = re.compile(
-    r"^\d+\s+(GK|DF|MF|FW)\s+(.+?)\s+(\d{2}/\d{2}/\d{4})\s+(.+?)\s+(\d{3})$"
+    r"^\d+\s+(GK|DF|MF|FW)\s+(.+?)\s+(\d{2}/\d{2}/\d{4})\s+(.+?)\s+(\d{3})(?:\s+(\d+)\s+(\d+))?$"
 )
 COACH_RE = re.compile(r"^Head coach\s+(.+?)\s+([A-Z][A-Za-zÀ-ÿ' -]+)$")
 COACH_OVERRIDES = {
@@ -102,7 +102,7 @@ def parse_player_line(line: str) -> dict[str, str] | None:
     if not match:
         return None
 
-    pos, raw_name_block, dob, club, height_cm = match.groups()
+    pos, raw_name_block, dob, club, height_cm, caps, goals = match.groups()
     club_country = ""
     country_match = re.search(r"\(([A-Z]{3})\)\s*$", club)
     if country_match:
@@ -115,6 +115,8 @@ def parse_player_line(line: str) -> dict[str, str] | None:
         "club": club.strip(),
         "club_country_code": club_country,
         "height_cm": height_cm,
+        "caps": caps or "",
+        "goals": goals or "",
     }
 
 
@@ -219,6 +221,8 @@ def main() -> int:
             "club",
             "club_country_code",
             "height_cm",
+            "caps",
+            "goals",
             "is_likely_starter",
             "starter_confidence",
             "role_notes",

@@ -5,16 +5,17 @@
 - Initial favorite: Egypt
 - Initial total-goals lean: neutral
 - Club-quality rating gap: 6.57
-- Simulated win/draw/loss: 0.328266 / 0.260289 / 0.411445
-- Simulated over 2.5: 0.491802
+- Simulated win/draw/loss: 0.328526 / 0.260245 / 0.411229
+- Simulated over 2.5: 0.492051
 - Most likely score: 1-1
+- Top scorelines: 1-1:0.124; 0-1:0.100; 1-0:0.088; 1-2:0.087; 2-1:0.076
 
 ## Team Snapshot
 
 | Team | Club rating | Power | Elo | Recent W-D-L | GF/GA | Tier | Head coach | Big-five players | Domestic players | Top clubs |
 | --- | ---: | ---: | ---: | --- | --- | --- | --- | ---: | ---: | --- |
-| Egypt | 61.65 | 63.99 | 1696 | 9-7-4 | 1.200/0.750 | middle | Hossam HASSAN | 5 | 17 | Al Ahly FC (EGY):8; Zamalek SC (EGY):3; Pyramids FC (EGY):3; ZED FC (EGY):2; Al Ain FC (UAE):1 |
-| Iran | 55.08 | 68.79 | 1772 | 12-5-3 | 1.850/0.750 | outsider | Amir GHALEHNOY | 0 | 17 | Tractor Sazi Tabriz FC (IRN):4; Persepolis FC (IRN):4; Esteghlal Tehran FC (IRN):3; Sepahan SC (IRN):3; Al Ittihad Kalba SCC (UAE):2 |
+| Egypt | 61.65 | 64.12 | 1696 | 9-7-4 | 1.200/0.750 | middle | Hossam HASSAN | 5 | 17 | Al Ahly FC (EGY):8; Zamalek SC (EGY):3; Pyramids FC (EGY):3; ZED FC (EGY):2; Al Ain FC (UAE):1 |
+| Iran | 55.08 | 68.90 | 1772 | 12-5-3 | 1.850/0.750 | outsider | Amir GHALEHNOY | 0 | 17 | Tractor Sazi Tabriz FC (IRN):4; Persepolis FC (IRN):4; Esteghlal Tehran FC (IRN):3; Sepahan SC (IRN):3; Al Ittihad Kalba SCC (UAE):2 |
 
 ## Current Read
 

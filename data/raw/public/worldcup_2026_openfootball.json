@@ -7,6 +7,27 @@
       "time": "13:00 UTC-6",
       "team1": "Mexico",
       "team2": "South Africa",
+      "score": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Julián Quiñones",
+          "minute": "9"
+        },
+        {
+          "name": "Raúl Jiménez",
+          "minute": "67"
+        }
+      ],
+      "goals2": [],
       "group": "Group A",
       "ground": "Mexico City"
     },
@@ -16,6 +37,32 @@
       "time": "20:00 UTC-6",
       "team1": "South Korea",
       "team2": "Czech Republic",
+      "score": {
+        "ft": [
+          2,
+          1
+        ],
+        "ht": [
+          0,
+          0
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Hwang In-Beom",
+          "minute": "67"
+        },
+        {
+          "name": "Oh Hyeon-Gyu",
+          "minute": "80"
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Ladislav Krejcí",
+          "minute": "59"
+        }
+      ],
       "group": "Group A",
       "ground": "Guadalajara (Zapopan)"
     },
@@ -61,6 +108,28 @@
       "time": "15:00 UTC-4",
       "team1": "Canada",
       "team2": "Bosnia & Herzegovina",
+      "score": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Cyle Larin",
+          "minute": "78"
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Jovo Lukić",
+          "minute": "21"
+        }
+      ],
       "group": "Group B",
       "ground": "Toronto"
     },
@@ -169,6 +238,41 @@
       "time": "18:00 UTC-7",
       "team1": "USA",
       "team2": "Paraguay",
+      "score": {
+        "ft": [
+          4,
+          1
+        ],
+        "ht": [
+          3,
+          0
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Damian Bobadilla",
+          "minute": "7",
+          "owngoal": true
+        },
+        {
+          "name": "Folarin Balogun",
+          "minute": "31"
+        },
+        {
+          "name": "Folarin Balogun",
+          "minute": "45+5"
+        },
+        {
+          "name": "Giovanni Reyna",
+          "minute": "90+8"
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Mauricio",
+          "minute": "73"
+        }
+      ],
       "group": "Group D",
       "ground": "Los Angeles (Inglewood)"
     },
@@ -921,6 +1025,7 @@
     },
     {
       "round": "Match for third place",
+      "num": 103,
       "date": "2026-07-18",
       "time": "17:00 UTC-4",
       "team1": "L101",
@@ -929,6 +1034,7 @@
     },
     {
       "round": "Final",
+      "num": 104,
       "date": "2026-07-19",
       "time": "15:00 UTC-4",
       "team1": "W101",

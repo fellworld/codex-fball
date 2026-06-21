@@ -1,0 +1,17 @@
+recommendation_id,date_discussed,set_id,rank_in_set,source_order,team_a,team_b,market_type,selection,selection_side,line,price,stake,model_ev,model_non_loss_probability,source,notes
+rec-20260619-21-01,2026-06-19,matches_21_24,1,21,Portugal,DR Congo,asian_handicap,DR Congo +1.5,team_b,1.5,1.01,1,+0.4663,0.7295,user_screenshot,ranked safest among matches 21-24
+rec-20260619-24-02,2026-06-19,matches_21_24,2,24,Uzbekistan,Colombia,asian_handicap,Uzbekistan +1/1.5,team_a,1.25,1.01,1,+0.4528,0.7782,user_screenshot,ranked second among matches 21-24
+rec-20260619-23-03,2026-06-19,matches_21_24,3,23,Ghana,Panama,total,Over 2/2.5,over,2.25,1.07,1,+0.2696,0.5577,user_screenshot,ranked third among matches 21-24
+rec-20260619-22-04,2026-06-19,matches_21_24,4,22,England,Croatia,total,Over 2/2.5,over,2.25,0.86,1,+0.1354,0.5477,user_screenshot,ranked fourth among matches 21-24
+rec-20260619-27-01,2026-06-19,matches_25_28,1,27,Canada,Qatar,asian_handicap,Qatar +1.5,team_b,1.5,0.99,1,+0.2632,0.6347,user_screenshot,ranked safest among matches 25-28
+rec-20260619-28-02,2026-06-19,matches_25_28,2,28,Mexico,South Korea,total,Over 2/2.5,over,2.25,1.06,1,+0.2157,0.5324,user_screenshot,ranked second among matches 25-28
+rec-20260619-25-03,2026-06-19,matches_25_28,3,25,Czechia,South Africa,total,Over 2/2.5,over,2.25,0.89,1,+0.1273,0.5336,user_screenshot,ranked third among matches 25-28
+rec-20260619-26-04,2026-06-19,matches_25_28,4,26,Switzerland,Bosnia and Herzegovina,asian_handicap,Bosnia and Herzegovina +1,team_b,1,0.89,1,+0.1193,0.7135,user_screenshot,ranked fourth among matches 25-28
+rec-20260619-30-01,2026-06-19,matches_29_32,1,30,Scotland,Morocco,asian_handicap,Morocco -0.5/1,team_b,-0.75,0.96,1,+0.1732,0.6595,user_screenshot,ranked safest among matches 29-32 after model and market agreement check
+rec-20260619-29-02,2026-06-19,matches_29_32,2,29,United States,Australia,total,Over 2.5,over,2.5,0.93,1,+0.1473,0.5944,user_screenshot,ranked second among matches 29-32
+rec-20260619-32-03,2026-06-19,matches_29_32,3,32,Turkiye,Paraguay,total,Over 2/2.5,over,2.25,0.84,1,+0.1276,0.5496,user_screenshot,ranked third among matches 29-32
+rec-20260619-31-04,2026-06-19,matches_29_32,4,31,Brazil,Haiti,total,Under 3.5,under,3.5,1.00,1,+0.2753,0.6376,user_screenshot,ranked fourth among matches 29-32 due to Brazil blowout-tail caution
+rec-20260620-35-A1,2026-06-20,matches_33_36,1,35,Ecuador,Curacao,total,Under 3,under,3,0.95,1,+0.2281,0.7358,user_screenshot,A-tier candidate under revised strategy
+rec-20260620-34-B1,2026-06-20,matches_33_36,2,34,Germany,Ivory Coast,asian_handicap,Ivory Coast +1,team_b,1,1.06,1,+0.2391,0.7206,user_screenshot,B-tier watch candidate due to underdog handicap cap
+rec-20260620-34-B2,2026-06-20,matches_33_36,3,34,Germany,Ivory Coast,total,Under 3,under,3,0.92,1,+0.0852,0.6723,user_screenshot,B-tier watch candidate
+rec-20260620-35-B1,2026-06-20,matches_33_36,4,35,Ecuador,Curacao,asian_handicap,Curacao +2/2.5,team_b,2.25,0.93,1,+0.6543,0.8937,user_screenshot,B-tier watch candidate due to underdog handicap cap

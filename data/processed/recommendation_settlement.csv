@@ -1,0 +1,13 @@
+recommendation_id,date_discussed,source_order,team_a,team_b,market_type,selection,selection_side,line,price,stake,actual_score,settlement_value,settlement,net_units,rank_in_set,set_id,model_ev,model_non_loss_probability,notes
+rec-20260619-21-01,2026-06-19,21,Portugal,DR Congo,asian_handicap,DR Congo +1.5,team_b,1.5,1.01,1.00,1-1,1.0,win,1.0100,1,matches_21_24,+0.4663,0.7295,ranked safest among matches 21-24
+rec-20260619-24-02,2026-06-19,24,Uzbekistan,Colombia,asian_handicap,Uzbekistan +1/1.5,team_a,1.25,1.01,1.00,1-3,-1.0,loss,-1.0000,2,matches_21_24,+0.4528,0.7782,ranked second among matches 21-24
+rec-20260619-23-03,2026-06-19,23,Ghana,Panama,total,Over 2/2.5,over,2.25,1.07,1.00,1-0,-1.0,loss,-1.0000,3,matches_21_24,+0.2696,0.5577,ranked third among matches 21-24
+rec-20260619-22-04,2026-06-19,22,England,Croatia,total,Over 2/2.5,over,2.25,0.86,1.00,4-2,1.0,win,0.8600,4,matches_21_24,+0.1354,0.5477,ranked fourth among matches 21-24
+rec-20260619-27-01,2026-06-19,27,Canada,Qatar,asian_handicap,Qatar +1.5,team_b,1.5,0.99,1.00,6-0,-1.0,loss,-1.0000,1,matches_25_28,+0.2632,0.6347,ranked safest among matches 25-28
+rec-20260619-28-02,2026-06-19,28,Mexico,South Korea,total,Over 2/2.5,over,2.25,1.06,1.00,1-0,-1.0,loss,-1.0000,2,matches_25_28,+0.2157,0.5324,ranked second among matches 25-28
+rec-20260619-25-03,2026-06-19,25,Czechia,South Africa,total,Over 2/2.5,over,2.25,0.89,1.00,1-0,-1.0,loss,-1.0000,3,matches_25_28,+0.1273,0.5336,ranked third among matches 25-28
+rec-20260619-26-04,2026-06-19,26,Switzerland,Bosnia and Herzegovina,asian_handicap,Bosnia and Herzegovina +1,team_b,1,0.89,1.00,4-1,-1.0,loss,-1.0000,4,matches_25_28,+0.1193,0.7135,ranked fourth among matches 25-28
+rec-20260619-30-01,2026-06-19,30,Scotland,Morocco,asian_handicap,Morocco -0.5/1,team_b,-0.75,0.96,1.00,0-1,0.5,half_win,0.4800,1,matches_29_32,+0.1732,0.6595,ranked safest among matches 29-32 after model and market agreement check
+rec-20260619-29-02,2026-06-19,29,United States,Australia,total,Over 2.5,over,2.5,0.93,1.00,2-0,-1.0,loss,-1.0000,2,matches_29_32,+0.1473,0.5944,ranked second among matches 29-32
+rec-20260619-32-03,2026-06-19,32,Turkiye,Paraguay,total,Over 2/2.5,over,2.25,0.84,1.00,0-1,-1.0,loss,-1.0000,3,matches_29_32,+0.1276,0.5496,ranked third among matches 29-32
+rec-20260619-31-04,2026-06-19,31,Brazil,Haiti,total,Under 3.5,under,3.5,1.00,1.00,3-0,1.0,win,1.0000,4,matches_29_32,+0.2753,0.6376,ranked fourth among matches 29-32 due to Brazil blowout-tail caution
