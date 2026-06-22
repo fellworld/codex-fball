@@ -1,0 +1,37 @@
+﻿source_order,match,team_a_win_probability,draw_probability,team_b_win_probability,predicted_result,predicted_result_cn,predicted_probability,probability_margin,actual_score,actual_result,actual_result_cn,hit
+1,Mexico vs South Africa,0.488,0.250,0.262,team_a,A?,0.488,0.226,2-0,team_a,A?,true
+2,South Korea vs Czechia,0.373,0.243,0.384,team_b,B?,0.384,0.011,2-1,team_a,A?,false
+3,Canada vs Bosnia and Herzegovina,0.537,0.270,0.193,team_a,A?,0.537,0.267,1-1,draw,?,false
+4,United States vs Paraguay,0.414,0.237,0.348,team_a,A?,0.414,0.066,4-1,team_a,A?,true
+5,Qatar vs Switzerland,0.187,0.206,0.607,team_b,B?,0.607,0.401,1-1,draw,?,false
+6,Brazil vs Morocco,0.343,0.253,0.404,team_b,B?,0.404,0.061,1-1,draw,?,false
+7,Haiti vs Scotland,0.497,0.230,0.273,team_a,A?,0.497,0.223,0-1,team_b,B?,false
+8,Australia vs Turkiye,0.311,0.245,0.444,team_b,B?,0.444,0.133,2-0,team_a,A?,false
+9,Germany vs Curacao,0.625,0.202,0.172,team_a,A?,0.625,0.423,7-1,team_a,A?,true
+10,Netherlands vs Japan,0.374,0.244,0.382,team_b,B?,0.382,0.008,2-2,draw,?,false
+11,Ivory Coast vs Ecuador,0.359,0.276,0.365,team_b,B?,0.365,0.006,1-0,team_a,A?,false
+12,Sweden vs Tunisia,0.409,0.237,0.354,team_a,A?,0.409,0.056,5-1,team_a,A?,true
+13,Spain vs Cape Verde,0.691,0.187,0.122,team_a,A?,0.691,0.504,0-0,draw,?,false
+14,Belgium vs Egypt,0.497,0.238,0.266,team_a,A?,0.497,0.231,1-1,draw,?,false
+15,Saudi Arabia vs Uruguay,0.316,0.261,0.423,team_b,B?,0.423,0.107,1-1,draw,?,false
+16,Iran vs New Zealand,0.441,0.241,0.319,team_a,A?,0.441,0.122,2-2,draw,?,false
+17,France vs Senegal,0.406,0.241,0.354,team_a,A?,0.406,0.052,3-1,team_a,A?,true
+18,Iraq vs Norway,0.160,0.205,0.636,team_b,B?,0.636,0.431,1-4,team_b,B?,true
+19,Argentina vs Algeria,0.480,0.246,0.273,team_a,A?,0.480,0.207,3-0,team_a,A?,true
+20,Austria vs Jordan,0.564,0.221,0.216,team_a,A?,0.564,0.343,3-1,team_a,A?,true
+21,Portugal vs DR Congo,0.502,0.241,0.257,team_a,A?,0.502,0.245,1-1,draw,?,false
+22,England vs Croatia,0.525,0.235,0.241,team_a,A?,0.525,0.284,4-2,team_a,A?,true
+23,Ghana vs Panama,0.346,0.244,0.410,team_b,B?,0.410,0.063,1-0,team_a,A?,false
+24,Uzbekistan vs Colombia,0.309,0.249,0.442,team_b,B?,0.442,0.133,1-3,team_b,B?,true
+25,Czechia vs South Africa,0.450,0.246,0.304,team_a,A?,0.450,0.145,1-0,team_a,A?,true
+26,Switzerland vs Bosnia and Herzegovina,0.539,0.257,0.203,team_a,A?,0.539,0.282,4-1,team_a,A?,true
+27,Canada vs Qatar,0.605,0.213,0.182,team_a,A?,0.605,0.392,6-0,team_a,A?,true
+28,Mexico vs South Korea,0.418,0.250,0.332,team_a,A?,0.418,0.086,1-0,team_a,A?,true
+29,United States vs Australia,0.387,0.238,0.375,team_a,A?,0.387,0.012,2-0,team_a,A?,true
+30,Scotland vs Morocco,0.140,0.205,0.656,team_b,B?,0.656,0.451,0-1,team_b,B?,true
+31,Brazil vs Haiti,0.502,0.231,0.267,team_a,A?,0.502,0.236,3-0,team_a,A?,true
+32,Turkiye vs Paraguay,0.471,0.242,0.288,team_a,A?,0.471,0.183,0-1,team_b,B?,false
+33,Netherlands vs Sweden,0.513,0.222,0.265,team_a,A?,0.513,0.249,5-1,team_a,A?,true
+34,Germany vs Ivory Coast,0.508,0.236,0.256,team_a,A?,0.508,0.252,2-1,team_a,A?,true
+35,Ecuador vs Curacao,0.496,0.252,0.252,team_a,A?,0.496,0.244,0-0,draw,?,false
+36,Tunisia vs Japan,0.221,0.233,0.546,team_b,B?,0.546,0.313,0-4,team_b,B?,true

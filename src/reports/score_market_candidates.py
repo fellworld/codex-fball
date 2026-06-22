@@ -144,12 +144,31 @@ def favorite_cover_tail(rows: list[dict[str, str]], selection_side: str, line: f
     return tail
 
 
+def favorite_margin_probability(
+    rows: list[dict[str, str]],
+    selection_side: str,
+    line: float,
+    predicate,
+) -> float:
+    if selection_side not in {"team_a", "team_b"} or line < 0:
+        return 0.0
+    probability_total = 0.0
+    for row in rows:
+        goals_a = int(row["goals_a"])
+        goals_b = int(row["goals_b"])
+        favorite_margin = goals_b - goals_a if selection_side == "team_a" else goals_a - goals_b
+        total_goals = goals_a + goals_b
+        if predicate(favorite_margin, total_goals):
+            probability_total += float(row["probability"])
+    return probability_total
+
+
 def tier_and_flags(
     line: dict[str, str],
     distribution: dict[str, float],
     market_probability: float,
     score_rows: list[dict[str, str]],
-) -> tuple[str, str, str]:
+) -> tuple[str, str, str, str]:
     market_type = line["market_type"]
     selection_side = line["selection_side"]
     handicap = as_float(line["line"])
@@ -159,6 +178,24 @@ def tier_and_flags(
     low_score_density = total_probability(score_rows, lambda goals: goals <= 2)
     high_score_density = total_probability(score_rows, lambda goals: goals >= 4)
     blowout_tail = favorite_cover_tail(score_rows, selection_side, handicap)
+    favorite_win_by_one_low_score = favorite_margin_probability(
+        score_rows,
+        selection_side,
+        handicap,
+        lambda margin, total_goals: margin == 1 and total_goals <= 2,
+    )
+    favorite_win_by_two_plus = favorite_margin_probability(
+        score_rows,
+        selection_side,
+        handicap,
+        lambda margin, total_goals: margin >= 2,
+    )
+    favorite_win_by_three_plus = favorite_margin_probability(
+        score_rows,
+        selection_side,
+        handicap,
+        lambda margin, total_goals: margin >= 3,
+    )
 
     flags: list[str] = []
     reasons: list[str] = []
@@ -171,6 +208,24 @@ def tier_and_flags(
         flags.append("underdog_handicap_cap")
     if market_type == "asian_handicap" and handicap > 0 and blowout_tail >= 0.28:
         flags.append("underdog_blowout_tail")
+    if (
+        market_type == "asian_handicap"
+        and 0 < handicap <= 0.5
+        and (non_loss < 0.62 or favorite_win_by_one_low_score >= 0.22)
+    ):
+        flags.append("small_underdog_one_goal_loss_risk")
+    if (
+        market_type == "asian_handicap"
+        and 0.5 < handicap <= 1.5
+        and favorite_win_by_two_plus >= 0.24
+    ):
+        flags.append("mid_underdog_two_goal_tail")
+    if (
+        market_type == "asian_handicap"
+        and handicap > 1.5
+        and (favorite_win_by_three_plus >= 0.11 or high_score_density >= 0.34)
+    ):
+        flags.append("deep_underdog_three_goal_tail")
     if full_loss >= 0.50:
         flags.append("high_full_loss_probability")
     if market_probability >= 0.58 and model_ev < 0.05:
@@ -186,23 +241,34 @@ def tier_and_flags(
         reasons.append("favorite_direction_supported")
     if market_type == "total" and selection_side == "under" and as_float(line["line"]) >= 3.5:
         reasons.append("high_total_under_buffer")
+    if market_type == "asian_handicap" and handicap > 0:
+        reasons.append("underdog_watch_only")
 
     if market_type == "total" and selection_side == "over" and flags:
         tier = "C"
-    elif market_type == "asian_handicap" and handicap > 0 and "underdog_blowout_tail" in flags:
+        subtier = "C"
+    elif market_type == "asian_handicap" and handicap > 0:
         tier = "C"
-    elif market_type == "asian_handicap" and handicap > 0 and model_ev >= 0.12:
-        tier = "B"
+        subtier = "C-underdog-risk"
     elif model_ev >= 0.12 and not flags and distribution["positive_probability"] >= market_probability:
         tier = "A"
-    elif model_ev >= 0.05 and len(flags) <= 1:
+        subtier = "A"
+    elif model_ev >= 0.10 and not flags:
         tier = "B"
-    elif model_ev >= 0.15 and len(flags) == 1 and "underdog_blowout_tail" not in flags:
+        subtier = "B-watch"
+    elif (
+        model_ev >= 0.15
+        and len(flags) == 1
+        and "below_market_probability" not in flags
+        and "underdog_blowout_tail" not in flags
+    ):
         tier = "B"
+        subtier = "B-watch"
     else:
         tier = "C"
+        subtier = "C"
 
-    return tier, ";".join(flags), ";".join(reasons)
+    return tier, subtier, ";".join(flags), ";".join(reasons)
 
 
 def main() -> int:
@@ -243,7 +309,7 @@ def main() -> int:
             price=price,
         )
         market_probability = no_vig_by_row.get(row_key(line), 0.0)
-        tier, risk_flags, strategy_reasons = tier_and_flags(
+        tier, subtier, risk_flags, strategy_reasons = tier_and_flags(
             line=line,
             distribution=distribution,
             market_probability=market_probability,
@@ -277,6 +343,7 @@ def main() -> int:
                 "team_b_rating_std_log_xg": sim.get("team_b_rating_std_log_xg", ""),
                 "most_likely_score": sim.get("most_likely_score", ""),
                 "strategy_tier": tier,
+                "strategy_subtier": subtier,
                 "risk_flags": risk_flags,
                 "strategy_reasons": strategy_reasons,
             }
@@ -310,6 +377,7 @@ def main() -> int:
         "team_b_rating_std_log_xg",
         "most_likely_score",
         "strategy_tier",
+        "strategy_subtier",
         "risk_flags",
         "strategy_reasons",
     ]

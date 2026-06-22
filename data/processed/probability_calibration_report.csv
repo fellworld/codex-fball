@@ -1,10 +1,10 @@
 row_type,group,source_order,team_a,team_b,actual_score,predicted_result,actual_result,actual_result_probability,result_brier,result_log_loss,actual_total,actual_total_probability,total_brier,total_log_loss,summary_source
-summary,overall,,,,,,,0.394930,0.593361,0.990397,,0.512334,0.241866,0.676667,data/processed/match_robust_simulation_summary.csv
+summary,overall,,,,,,,0.401573,0.580170,0.972828,,0.516998,0.237237,0.667313,data/processed/match_robust_simulation_summary.csv
 calibration_bin,0.1-0.2,,,,,,,0.186769,1.153482,1.677883,,,,,data/processed/match_robust_simulation_summary.csv
-calibration_bin,0.2-0.3,,,,,,,0.251520,0.869117,1.384112,,,,,data/processed/match_robust_simulation_summary.csv
+calibration_bin,0.2-0.3,,,,,,,0.251535,0.869165,1.383700,,,,,data/processed/match_robust_simulation_summary.csv
 calibration_bin,0.3-0.4,,,,,,,0.355329,0.635777,1.037474,,,,,data/processed/match_robust_simulation_summary.csv
 calibration_bin,0.4-0.5,,,,,,,0.438412,0.477769,0.826907,,,,,data/processed/match_robust_simulation_summary.csv
-calibration_bin,0.5-0.6,,,,,,,0.532569,0.329029,0.630929,,,,,data/processed/match_robust_simulation_summary.csv
+calibration_bin,0.5-0.6,,,,,,,0.528211,0.335004,0.639032,,,,,data/processed/match_robust_simulation_summary.csv
 calibration_bin,0.6-0.7,,,,,,,0.630389,0.206437,0.461842,,,,,data/processed/match_robust_simulation_summary.csv
 match,match,1,Mexico,South Africa,2-0,team_a,team_a,0.487848,0.393525,0.717751,under_2_5,0.503901,0.246114,0.685375,data/processed/match_robust_simulation_summary.csv
 match,match,2,South Korea,Czechia,2-1,team_b,team_a,0.373154,0.599422,0.985764,over_2_5,0.567253,0.187270,0.566950,data/processed/match_robust_simulation_summary.csv
@@ -38,3 +38,7 @@ match,match,29,United States,Australia,2-0,team_a,team_a,0.386998,0.572998,0.949
 match,match,30,Scotland,Morocco,0-1,team_b,team_b,0.655800,0.179822,0.421899,under_2_5,0.475124,0.275495,0.744179,data/processed/match_robust_simulation_summary.csv
 match,match,31,Brazil,Haiti,3-0,team_a,team_a,0.502337,0.372151,0.688484,over_2_5,0.579640,0.176703,0.545348,data/processed/match_robust_simulation_summary.csv
 match,match,32,Turkiye,Paraguay,0-1,team_a,team_b,0.287527,0.787689,1.246439,under_2_5,0.453030,0.299176,0.791797,data/processed/match_robust_simulation_summary.csv
+match,match,33,Netherlands,Sweden,5-1,team_a,team_a,0.513314,0.356215,0.666868,over_2_5,0.619823,0.144535,0.478321,data/processed/match_robust_simulation_summary.csv
+match,match,34,Germany,Ivory Coast,2-1,team_a,team_a,0.507815,0.363557,0.677638,over_2_5,0.549008,0.203394,0.599642,data/processed/match_robust_simulation_summary.csv
+match,match,35,Ecuador,Curacao,0-0,team_a,draw,0.251685,0.869637,1.379577,under_2_5,0.517848,0.232471,0.658074,data/processed/match_robust_simulation_summary.csv
+match,match,36,Tunisia,Japan,0-4,team_b,team_b,0.546074,0.309140,0.605001,over_2_5,0.530535,0.220397,0.633869,data/processed/match_robust_simulation_summary.csv

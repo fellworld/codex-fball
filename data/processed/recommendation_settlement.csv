@@ -11,3 +11,7 @@ rec-20260619-30-01,2026-06-19,30,Scotland,Morocco,asian_handicap,Morocco -0.5/1,
 rec-20260619-29-02,2026-06-19,29,United States,Australia,total,Over 2.5,over,2.5,0.93,1.00,2-0,-1.0,loss,-1.0000,2,matches_29_32,+0.1473,0.5944,ranked second among matches 29-32
 rec-20260619-32-03,2026-06-19,32,Turkiye,Paraguay,total,Over 2/2.5,over,2.25,0.84,1.00,0-1,-1.0,loss,-1.0000,3,matches_29_32,+0.1276,0.5496,ranked third among matches 29-32
 rec-20260619-31-04,2026-06-19,31,Brazil,Haiti,total,Under 3.5,under,3.5,1.00,1.00,3-0,1.0,win,1.0000,4,matches_29_32,+0.2753,0.6376,ranked fourth among matches 29-32 due to Brazil blowout-tail caution
+rec-20260620-35-A1,2026-06-20,35,Ecuador,Curacao,total,Under 3,under,3,0.95,1.00,0-0,1.0,win,0.9500,1,matches_33_36,+0.2281,0.7358,A-tier candidate under revised strategy
+rec-20260620-34-B1,2026-06-20,34,Germany,Ivory Coast,asian_handicap,Ivory Coast +1,team_b,1,1.06,1.00,2-1,0.0,push,0.0000,2,matches_33_36,+0.2391,0.7206,B-tier watch candidate due to underdog handicap cap
+rec-20260620-34-B2,2026-06-20,34,Germany,Ivory Coast,total,Under 3,under,3,0.92,1.00,2-1,0.0,push,0.0000,3,matches_33_36,+0.0852,0.6723,B-tier watch candidate
+rec-20260620-35-B1,2026-06-20,35,Ecuador,Curacao,asian_handicap,Curacao +2/2.5,team_b,2.25,0.93,1.00,0-0,1.0,win,0.9300,4,matches_33_36,+0.6543,0.8937,B-tier watch candidate due to underdog handicap cap

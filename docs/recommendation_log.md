@@ -169,6 +169,64 @@ Checked on 2026-06-20. Notes are stored in `data/processed/latest_match_news_33_
 
 Final recommendation after news update: keep only Ecuador vs Curacao under 3 as the formal A-tier selection. Do not force four picks.
 
+Result review after 2026-06-21 final scores:
+
+| Match | Actual score | Recorded pick | Tier at selection | Settlement |
+| --- | ---: | --- | --- | --- |
+| Ecuador vs Curacao | 0-0 | Under 3 | A | Win, +0.9500 units |
+| Germany vs Ivory Coast | 2-1 | Ivory Coast +1 | B watch | Push |
+| Germany vs Ivory Coast | 2-1 | Under 3 | B watch | Push |
+| Ecuador vs Curacao | 0-0 | Curacao +2/2.5 | B watch | Win, +0.9300 units |
+
+The formal A-tier recommendation finished 1 positive settlement from 1, net +0.9500 units. The full recorded 33-36 candidate set finished 2 positive settlements from 4, 4 non-loss settlements, net +1.8800 units.
+
+### B-tier rule change after review
+
+After reviewing completed captured lines through match 36, B-tier is no longer used as a fallback recommendation layer.
+
+Main finding:
+
+- The old B tier was mostly weak-underdog Asian handicap plays.
+- Old B Asian handicap candidates finished 2 positive settlements from 9, 3 non-loss settlements, net -4.0600 units.
+- The model repeatedly mistook low-score density for underdog protection; favorite 1-0, 2-0, and 3-0 outcomes broke that logic.
+
+New rule:
+
+- `A`: playable only.
+- `C-underdog-risk`: all positive-handicap underdog positions, even when model EV is high.
+- `C`: no play.
+
+Current completed captured-line backtest after this change:
+
+- `A`: 3 positive settlements from 3, net +2.4300 units.
+- `C-underdog-risk`: 3 positive settlements from 16, net -8.7000 units.
+- No active `B` recommendation layer.
+
+### Matches 37-40 future-data update
+
+Checked on 2026-06-21. Notes are stored in `data/processed/latest_match_news_37_40.csv`.
+
+| Match | China time | Robust model read | News read | Current lean without fresh market line |
+| --- | --- | --- | --- | --- |
+| Spain vs Saudi Arabia | 2026-06-22 00:00 | Spain win 67.27%; xG 2.131-0.814; most likely 2-0 | Spain must respond after 0-0 vs Cape Verde; Saudi drew Uruguay and likely defend deep. | Spain strongest favorite, but wait for handicap/total. Deep favorite line may be expensive. |
+| Belgium vs Iran | 2026-06-22 03:00 | Belgium win 45.73%; xG 1.676-1.329; most likely 1-1 | Belgium have Debast out and De Ketelaere uncertain; Iran drew New Zealand and remain compact. | Belgium edge only moderate; avoid automatic Belgium handicap. |
+| Uruguay vs Cape Verde | 2026-06-22 06:00 | Uruguay win 44.21%; xG 1.447-1.131; under 2.5 52.88%; most likely 1-1 | Uruguay miss Araujo and De Arrascaeta; Cape Verde have no listed injury-table players after holding Spain 0-0. | Cautious low-scoring profile; Uruguay handicap looks fragile. |
+| New Zealand vs Egypt | 2026-06-22 09:00 | Egypt win 40.01%; xG 1.485-1.366; most likely 1-1 | No listed injury-table players; Egypt stronger on names, New Zealand showed threat vs Iran. | Price-sensitive. Egypt are not strong enough in model for blind handicap support. |
+
+### Matches 37-40 screenshot market analysis
+
+Screenshot `8f33872dcf9d37049a565c05c700f88c` was scored after the B-tier rule change. B is disabled and all underdog positive-handicap positions are classified as `C-underdog-risk`.
+
+| Status | Match | Pick | Screenshot price | Robust model support | Notes |
+| --- | --- | --- | ---: | --- | --- |
+| A - playable | Spain vs Saudi Arabia | Under 3.5 | 0.91 | EV +0.2583; non-loss 65.88%; high-score 4+ density 34.12% | The only A in the set. Spain are strong, but the model does not support Spain -2.5. Under 3.5 has buffer against 2-0, 3-0, and 2-1. |
+| C-underdog-risk | Spain vs Saudi Arabia | Saudi Arabia +2.5 | 1.06 | EV +0.5850; non-loss 76.94% | Downgraded despite high EV because all underdog positive handicaps now stay out of recommendations. Spain 3+ tail is material. |
+| C-underdog-risk | Belgium vs Iran | Iran +1/1.5 | 0.91 | EV +0.3489; non-loss 75.74% | Model likes protection, but this is exactly the old B failure pattern. |
+| C-underdog-risk | Uruguay vs Cape Verde | Cape Verde +1 | 1.11 | EV +0.4018; non-loss 78.25% | Model-market gap is large, but weak-underdog handicap stays no-play under the new rule. |
+| C-underdog-risk | New Zealand vs Egypt | New Zealand +1 | 0.84 | EV +0.3083; non-loss 80.44% | Same pattern: interesting model curiosity, not a stake recommendation. |
+
+Avoided favorites: Spain -2.5, Belgium -1/1.5, Uruguay -1, Egypt -1. The robust model does not support those handicap prices. Avoided broad overs because low-score density remains too high in all four matches.
+
 ## Review checklist after results
 
 - Record final score and settlement for each active pick

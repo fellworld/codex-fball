@@ -2,7 +2,7 @@
 
 Last updated: 2026-06-20
 
-## First 32 matches
+## First 36 matches
 
 The first 32 final scores are stored in:
 
@@ -14,10 +14,10 @@ Backtest output:
 
 Current result:
 
-- Match result direction: 17/32
-- Over/under 2.5: 18/32
-- Exact most-likely score: 4/32
-- Actual score inside top 5 scorelines: 14/32
+- Match result direction: 20/36
+- Over/under 2.5: 22/36
+- Exact most-likely score: 4/36
+- Actual score inside top 5 scorelines: 15/36
 
 ## Interpretation
 
@@ -49,7 +49,8 @@ Current seeded sample:
 - Matches 21-24 stable candidates: 2 positive settlements from 4, net -0.1300 units.
 - Matches 25-28 stable candidates: 0 positive settlements from 4, net -4.0000 units.
 - Matches 29-32 stable candidates: 2 positive settlements from 4, net -0.5200 units.
-- Total seeded market candidates: 4 positive settlements from 12, net -4.6500 units.
+- Matches 33-36 recorded candidates: 2 positive settlements from 4, 4 non-loss settlements, net +1.8800 units.
+- Total seeded market candidates: 6 positive settlements from 16, 8 non-loss settlements, net -2.7700 units.
 
 Interpretation:
 
@@ -70,14 +71,17 @@ The project now separates model pricing from recommendation selection:
 Tier interpretation:
 
 - `A`: playable candidate. Requires positive model EV and no current structural red flags.
-- `B`: watch-only candidate. Has some model value but violates a known risk rule; do not promote into the main recommendation set unless later evidence supports that pattern.
+- `B`: currently disabled as a recommendation layer. The latest B review showed that B was mostly a weak-underdog handicap bucket rather than a true second tier.
+- `C-underdog-risk`: weak-underdog handicap candidate separated from ordinary C because this pattern has been the clearest source of model overconfidence.
 - `C`: avoid. Either negative model value or a structural risk that has recently performed poorly.
 
 Current risk rules:
 
 - Ordinary over positions are downgraded when the model still has high `<=2 goals` density.
-- Underdog handicap positions are capped at `B` because recent results show the model overvalued protection and underweighted blowouts.
-- Underdog handicap positions are downgraded to `C` when favorite blowout-tail risk is high.
+- Underdog handicap positions are no longer allowed into `B`; they are classified as `C-underdog-risk`.
+- Small underdog lines `+0/0.5` and `+0.5` are specifically penalized because low-score density often means favorite 1-0, not underdog protection.
+- Mid underdog lines `+1` to `+1.5` are penalized when favorite 2+ margin tail is material.
+- Deep underdog lines above `+1.5` are penalized when favorite 3+ margin tail or high-score density is material.
 - `A` candidates must also clear the market baseline: model positive probability cannot sit below the market no-vig probability.
 - High-total unders can reach `A` when the line gives enough buffer and the model does not show excessive 4+ goal density.
 - Favorite Asian handicap positions can reach `A` when model direction and market direction align and the handicap is not too deep.
@@ -109,8 +113,29 @@ Interpretation:
 Operational rule from now on:
 
 - Only `A` candidates are playable.
-- `B` candidates are listed as watch-only, not recommended stakes.
+- `B` is not used as a fallback recommendation layer.
+- `C-underdog-risk` can be shown as model curiosity only, not as a stake candidate.
 - If a screenshot has no `A`, the recommendation is no play.
+
+## B-tier failure review
+
+After adding results through match 36, the previous B tier showed a structural failure:
+
+- Old B Asian handicap candidates: 9 candidates, 2 positive settlements, 3 non-loss settlements, net -4.0600 units.
+- Most failed B candidates were weak-underdog handicap plays.
+- The repeated failure mode was treating low-score density as underdog protection, even when the likely low-score outcomes were favorite 1-0 or favorite 2-0.
+
+The strategy scorer now emits `strategy_subtier`:
+
+- `A`: playable.
+- `C-underdog-risk`: all positive-handicap underdog positions.
+- `C`: ordinary avoid/no-play positions.
+
+Current strategy-subtier backtest over completed captured lines through match 36:
+
+- `A`: 3 positive settlements from 3, net +2.4300 units.
+- `C-underdog-risk`: 3 positive settlements from 16, 4 non-loss settlements, net -8.7000 units.
+- Ordinary `C`: 24 positive settlements from 45, 27 non-loss settlements, net +4.2100 units. This is not directly actionable because it includes mutually exclusive sides and non-selected lines.
 
 ## Uncertainty-aware model layer
 
@@ -134,9 +159,9 @@ Current robust run:
 
 `src/reports/evaluate_probability_calibration.py` writes `data/processed/probability_calibration_report.csv`.
 
-Current robust calibration on the first 32 final matches:
+Current robust calibration on the first 36 final matches:
 
-- Result Brier score: `0.593361`
-- Result log loss: `0.990397`
-- Total-goals Brier score: `0.241866`
-- Total-goals log loss: `0.676667`
+- Result Brier score: `0.580170`
+- Result log loss: `0.972828`
+- Total-goals Brier score: `0.237237`
+- Total-goals log loss: `0.667313`

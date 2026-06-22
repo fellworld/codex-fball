@@ -31,3 +31,7 @@ source_order,team_a,team_b,actual_goals_a,actual_goals_b,result_status,source,so
 30,Scotland,Morocco,0,1,final,https://www.theguardian.com/football/ng-interactive/2026/jun/18/world-cup-2026-results-scores-tables-and-fixtures,2026-06-20T16:18:22+08:00,Guardian results page
 31,Brazil,Haiti,3,0,final,https://www.theguardian.com/football/ng-interactive/2026/jun/18/world-cup-2026-results-scores-tables-and-fixtures,2026-06-20T16:18:22+08:00,Guardian results page
 32,Turkiye,Paraguay,0,1,final,https://www.theguardian.com/football/ng-interactive/2026/jun/18/world-cup-2026-results-scores-tables-and-fixtures,2026-06-20T16:18:22+08:00,Guardian results page
+33,Netherlands,Sweden,5,1,final,https://www.espn.co.uk/football/match/_/gameId/760447/sweden-netherlands,2026-06-21T13:30:00+08:00,ESPN final score
+34,Germany,Ivory Coast,2,1,final,https://www.espn.com/soccer/story/_/id/49127745/germany-ivory-coast-live-world-cup-2026-latest-updates-commentary-score-result,2026-06-21T13:30:00+08:00,ESPN match report
+35,Ecuador,Curacao,0,0,final,https://www.espn.co.uk/football/match/_/gameId/760446/curacao-ecuador,2026-06-21T13:30:00+08:00,ESPN final score
+36,Tunisia,Japan,0,4,final,https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report,2026-06-21T13:30:00+08:00,Guardian match report

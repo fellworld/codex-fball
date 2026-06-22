@@ -61,6 +61,7 @@ def settle_candidate(row: dict[str, str], actual: dict[str, str]) -> dict[str, s
         "line": row["line"],
         "price": row["price"],
         "strategy_tier": row["strategy_tier"],
+        "strategy_subtier": row.get("strategy_subtier", row["strategy_tier"]),
         "risk_flags": row["risk_flags"],
         "strategy_reasons": row["strategy_reasons"],
         "model_ev": row["model_ev"],
@@ -77,8 +78,15 @@ def summarize(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     for row in rows:
         groups[("all", "all")].append(row)
         groups[("strategy_tier", row["strategy_tier"])].append(row)
+        groups[("strategy_subtier", row.get("strategy_subtier", row["strategy_tier"]))].append(row)
         groups[("market_type", row["market_type"])].append(row)
         groups[(f"tier_market", f"{row['strategy_tier']}|{row['market_type']}")].append(row)
+        groups[
+            (
+                "subtier_market",
+                f"{row.get('strategy_subtier', row['strategy_tier'])}|{row['market_type']}",
+            )
+        ].append(row)
 
     summary_rows: list[dict[str, str]] = []
     for (group_type, group_value), group_rows in sorted(groups.items()):
@@ -134,6 +142,7 @@ def main() -> int:
         "line",
         "price",
         "strategy_tier",
+        "strategy_subtier",
         "risk_flags",
         "strategy_reasons",
         "model_ev",

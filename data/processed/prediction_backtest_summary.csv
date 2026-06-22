@@ -31,3 +31,7 @@ source_order,team_a,team_b,actual_score,most_likely_score,exact_score_hit,actual
 30,Scotland,Morocco,0-1,0-2,false,2,0.123767,2.089354,0-2:0.124; 0-1:0.124; 1-2:0.097; 1-1:0.097; 0-3:0.083,team_b,team_b,true,under_2_5,over_2_5,false,0.781,2.003,2.785
 31,Brazil,Haiti,3-0,1-1,false,10,0.046202,3.074735,1-1:0.107; 2-1:0.096; 1-0:0.086; 2-0:0.077; 1-2:0.066,team_a,team_a,true,over_2_5,over_2_5,true,1.798,1.245,3.043
 32,Turkiye,Paraguay,0-1,1-1,false,6,0.069033,2.673173,1-1:0.114; 2-1:0.094; 1-0:0.093; 2-0:0.076; 1-2:0.070,team_b,team_a,false,under_2_5,over_2_5,false,1.650,1.231,2.881
+33,Netherlands,Sweden,5-1,1-1,false,20,0.011151,4.496201,1-1:0.100; 2-1:0.095; 1-0:0.076; 2-0:0.073; 1-2:0.065,team_a,team_a,true,over_2_5,over_2_5,true,1.914,1.313,3.227
+34,Germany,Ivory Coast,2-1,1-1,false,3,0.096695,2.336197,1-1:0.111; 1-0:0.097; 2-1:0.097; 2-0:0.084; 0-1:0.064,team_a,team_a,true,over_2_5,over_2_5,true,1.737,1.151,2.888
+35,Ecuador,Curacao,0-0,1-1,false,6,0.074199,2.601000,1-1:0.120; 1-0:0.116; 2-1:0.094; 2-0:0.091; 0-1:0.077,draw,team_a,false,under_2_5,under_2_5,true,1.569,1.032,2.601
+36,Tunisia,Japan,0-4,1-1,false,14,0.025339,3.675427,1-1:0.110; 0-1:0.106; 1-2:0.098; 0-2:0.095; 1-0:0.061,team_b,team_b,true,over_2_5,over_2_5,true,1.035,1.789,2.824
